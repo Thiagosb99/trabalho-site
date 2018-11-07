@@ -7,12 +7,10 @@
     margin-right: auto;
     margin-left: auto;
 }
-body{
 
-}
 .controle{
     margin-top: 50px;
-     background-color: 	white;
+    background-color: 	white;
     width: 80%;
     height:auto;
     border-radius: 20px;
@@ -20,15 +18,14 @@ body{
 
 
 
-/*header*/
+/*header=================================================================================================================*/
 
 header{
+    
     transition: all 0.5s;
     width: 100%;
-    
     height: 300px;
 }
-
 
 .pesquisa{
     width: 100%;
@@ -50,6 +47,7 @@ img{
     margin-left: 30%;
     float: left;
 }
+
 input{
     width: 95%;
     border-radius: 10px;
@@ -61,8 +59,10 @@ input{
     color:white;
     box-sizing: border-box;
 }
+
 button{
-background-color: #342015;
+    
+    background-color: #342015;
     border: none;
     margin-top: 65px;
 }
@@ -71,11 +71,12 @@ button i{
     padding: 10px;
 }
 
-/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*---Fim Pesquisa--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 
 
 /*Menu*/
+
 .teste{
     width: 100%;
     height: 100px;
@@ -87,6 +88,7 @@ button i{
     float: left;
     margin: 0 0.5%;
 }
+
 .subteste p{
     text-align: center;
     color: #906c2b;
@@ -94,7 +96,7 @@ button i{
 }
 .subteste ul li ul {
     margin-top: 40px;
-   height: 0px;
+    height: 0px;
     display: none;
 }
 
@@ -109,14 +111,16 @@ ul li:hover, ul li:hover p i {
     border-radius: 90px 90px 0 0;
     color: #fff;
 }
+
 .menu-fix{
     position: fixed;
     left: -25%;
     transition: all 0.5s;
-     background-color:#2C1F15;
+    background-color:#2C1F15;
     border-radius: 0 90px 90px 0;
     
 }
+
 .menu-fix:hover{
     left: -18%;
     border-radius: 0 90px 0 0;
@@ -129,7 +133,7 @@ ul li:hover, ul li:hover p i {
 }
 ul li ul li:hover{
     border-radius: 0;
-  opacity: 0.9;
+    opacity: 0.9;
 }
 
 .subteste ul li ul li{
@@ -146,23 +150,25 @@ ul li ul li:hover{
 .subteste ul:hover li ul{
     display: block;
 }
+
 /*---FIM MENU-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-/*---FIM HEADER-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*---FIM HEADER-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
+
+/*Slider================================================================================================================*/
 
 
 .slide-bloco{
     
     width: 100%;
     height: 100%;
-   
-
 }
+
 .sub-container{      
-  
+    
     width: 5%;        
-    padding-top: 28%;
+    padding-top: 26%;
     float: left;
 }
 
@@ -170,12 +176,10 @@ ul li ul li:hover{
     padding-top: 0;
     width: 80%;
     margin: 0 5%;
-    
 }
 
-
-
 .mySlides{
+    
     display: none;         
 }
             
@@ -185,28 +189,31 @@ ul li ul li:hover{
     border-radius: 20px;
     }
 .demo{
-width: 20px;
- height: 20px;
-border: solid 3px;
- border-radius: 360px;
-border-color: #aaa;
- background-color: white;
-margin-left: 5px;
+    
+    width: 20px;
+    height: 20px;
+    border: solid 3px;
+    border-radius: 360px;
+    border-color: #aaa;
+    background-color: white;
+    margin-left: 5px;
     margin-top: 5px;
  }
 
 .w3-left, .w3-right, .w3-badge {
- cursor:pointer;
-background:#887C6E;
-padding: 10px;
+    
+    cursor:pointer;
+    background:#887C6E;
+    padding: 5px;
     font-size: 35px;
     color: white;
     text-align: center;
-    border-radius: 90px;
+    border-radius: 12px;
     margin-bottom: 500%;
 }
 
 .fade {
+    
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
@@ -224,7 +231,29 @@ padding: 10px;
 }
 
 
-/*---FIM SLIDER-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.fade2{
+  animation-name: fade2;
+  animation-duration: 2.5s; 
+ 
+}
+.tp1{
+      animation-duration: 3s; 
+
+}
+.tp2{
+      animation-duration: 3.2s; 
+
+}
+@keyframes fade2 {
+    from {margin-left: 500px;
+    opacity: 0.1} 
+  to {margin-left: 0;
+    opacity: 1;}
+}
+
+
+
+/*---FIM SLIDER-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 
 
@@ -235,12 +264,13 @@ padding: 10px;
  /*Móveis Seções*/
 
 h3{
-     font-family: 'PT Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     font-weight: bold;
     font-size: 1.5vw;
     margin-left: 4%;
 }
 .moveis-secao{
+    
     border-left: solid 5px #f1f1f1;
     border-bottom: solid 2px #f1f1f1;
     border-radius: 20px;
@@ -248,6 +278,7 @@ h3{
 }
 
 .bloco1{
+    
     width:30%;
     margin: 1.55%;
     float: left;   
@@ -256,6 +287,7 @@ h3{
 }
 
 .controle img.img-bloco1{
+    
     margin-left: 0;
     margin-top: 0;
     width:100%;
@@ -265,8 +297,9 @@ h3{
   
 }
 .img-bloco1:hover{
+    
       box-sizing: border-box;
-    transform: scale(1.1);
+      transform: scale(1.1);
 }
 
 p{
@@ -279,6 +312,7 @@ p{
 
 }
 p span{
+    
     font-weight: bold;
     font-size: 2vw;
     color: #3f3f3f;
@@ -287,19 +321,20 @@ p span{
 
 
 .botao-comprar{
- border: 1px solid gray;
-  color: white;
-  font-size: 1.2vw;
-  width: 100%;
+    
+    border: 1px solid gray;
+    color: white;
+    font-size: 1.2vw;
+    width: 100%;
     font-family: arial;
     transition: all 1s;
     opacity: 0.4;
     padding: 5px 0;
-margin-top: 15px;
-   
-    
+    margin-top: 15px;
+  
 }
 .botao-comprar:hover{
+    
     opacity: 0.8;
     border-radius: 0 20px 0 20px ;
 }
