@@ -118,18 +118,23 @@ ul li:hover, ul li:hover p i {
     transition: all 0.5s;
     background-color:#2C1F15;
     border-radius: 0 90px 90px 0;
-    
+   
 }
 
 .menu-fix:hover{
-    left: -18%;
+    left: -23%;
     border-radius: 0 90px 0 0;
 }
 .menu-fix ul li{
     padding-left: 50%;
 }
+.menu-fix:hover ul {
+    border-radius: 10px;
+}
 .menu-fix:hover ul li{
-   
+    font-size: 1.2vw;
+    border-radius: 0px;
+    text-align: right;
 }
 ul li ul li:hover{
     border-radius: 0;
