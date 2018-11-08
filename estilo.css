@@ -25,6 +25,7 @@ header{
     transition: all 0.5s;
     width: 100%;
     height: 300px;
+   
 }
 
 .pesquisa{
@@ -74,6 +75,20 @@ button i{
 /*---Fim Pesquisa--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 
+.nav-mobile{
+    width: 100%;
+    height: 100%;
+    background-color: green;
+    position: absolute;
+    top: 50%;
+    display: none;
+    
+}
+.cel{
+    width: 100%;
+    height: 100px;
+   background-color: #342015;
+}
 
 /*Menu*/
 
@@ -121,26 +136,29 @@ ul li:hover, ul li:hover p i {
    
 }
 
+.menu-fix{
+    position: fixed;
+    left: -25%;
+    transition: all 0.5s;
+    background-color:#2C1F15;
+    border-radius: 0 90px 90px 0;
+    
+}
+
 .menu-fix:hover{
-    left: -23%;
+    left: -18%;
     border-radius: 0 90px 0 0;
 }
 .menu-fix ul li{
     padding-left: 50%;
 }
-.menu-fix:hover ul {
-    border-radius: 10px;
-}
 .menu-fix:hover ul li{
-    font-size: 1.2vw;
-    border-radius: 0px;
-    text-align: right;
+   
 }
 ul li ul li:hover{
     border-radius: 0;
     opacity: 0.9;
 }
-
 .subteste ul li ul li{
     
    font-size: 25px;
@@ -156,19 +174,43 @@ ul li ul li:hover{
     display: block;
 }
 
+#menuzin{
+        display: none;
+    }
 /*---FIM MENU-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 /*---FIM HEADER-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 
 /*Slider================================================================================================================*/
+  .swiper-container {
+      width: 100%;
+      height: 100%;
+      
+    display: none;
+    }
+    .swiper-slide {
+      text-align: center;
+        margin-bottom: 40px;
+      font-size: 18px;
+      background: #fff;
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
 
 
-.slide-bloco{
-    
-    width: 100%;
-    height: 100%;
-}
+
 
 .sub-container{      
     
@@ -548,7 +590,14 @@ h5{
 @media (max-width: 1024px) and (min-width: 250px){
    
     /*header*/
+.swiper-container{
+ display: block;
 
+}
+    
+.slide-bloco{
+    display: none;
+    }
 
 
     
@@ -711,7 +760,7 @@ h5{
 header{
     height: 350px;
     background-color: red;
-    margin-bottom: 400px;
+    margin-bottom: 0px;
 }
 
 
@@ -749,11 +798,67 @@ button i{
 }
 
 /*-FIM PESQUISA---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+ 
+    header{
+        position: relative;
+        background-color: inherit;
+    }
+    #menuzin{
+        position: absolute;
+        top: 0;
+        font-size: 12vw;
+        left: 1%;
+        display: block;
+    }
+    
+    
+    
+.nav-mobile{
+    width: 100%;
+    height: 100%;
+    background-color: green;
+    position: absolute;
+    top: 0%;
+   /* display: block; */
+   
+}
+.cel{
+    width: 100%;
+    height: 100px;
+  
+}
+    .subteste{
+        height: 200%;
+    }
+     .subteste:nth-child(1){
+        height: 500%;
+    }
+
+    .nav-mobile .subteste, .subteste ul li ul li{
+         background-color: #aaa;
+    }    
+    
+.nav-mobile ul li ul{
+         display: block;
+    }   
+    .nav-mobile ul li ul li, .nav-mobile .subteste, .subteste ul li p i{
+        font-size: 4vw;
+    }   
+    
+    #fecharmenu{
+      width: 5vw; 
+        height: 5vh;
+        position: absolute; 
+         left: 90%;
+        top:-10%;
+        background: red;
+    }
     
     
 /*Menu*/
 .teste{
     height: 100%;
+    display: none;
 }
 .subteste{
      background-color: #342015;
@@ -894,6 +999,8 @@ width: 95%;
     margin-bottom: 15px;
     border-radius: 5px;
     transition: all 0.8s;
+    width: 80%;
+    margin-left: 10%
   
 }
 .img-bloco1:hover{
@@ -971,6 +1078,7 @@ margin-top: 15px;
 
     
 
+  
 
 
 .slide-bloco{

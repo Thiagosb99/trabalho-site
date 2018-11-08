@@ -40,7 +40,25 @@ document.getElementById("corpo").onscroll= function(){fixar()};
                 }
     }
               
-      
+     
+
+function eitateste(){
+    document.getElementsByClassName("swiper-wrapper")[0].style.marginTop="100%";
+    document.getElementsByClassName("nav-mobile")[0].style.display="block";
+    
+}
+function eitapeste(){
+    document.getElementsByClassName("swiper-wrapper")[0].style.marginTop="0px";
+    document.getElementsByClassName("nav-mobile")[0].style.display="none";
+}
+
+
+
+
+
+
+
+
 /*Alterar alturas*/
     function altura(){
 
