@@ -2,21 +2,24 @@
 <html>
 <head>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="teste1.css">
     <link href="https://fonts.googleapis.com/css?family=Pattaya" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/css/swiper.min.css">
-    <title> Index - Orlando móveis</title>
+    <title> home - Orlando móveis</title>
     
-     <style>
+    
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/css/swiper.min.css">
+
+  <!-- Demo styles -->
+   <style>
     html, body {
       position: relative;
       height: 100%;
     }
     body {
-      background: #eee;
+      background: #fff;
       font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
       font-size: 14px;
       color:#000;
@@ -46,6 +49,9 @@
       align-items: center;
     }
   </style>
+    
+    
+    
     
     
 </head>
@@ -93,6 +99,12 @@
                 </ul>
             </div>
             
+            
+            
+  
+            
+            
+            
             <div class="subteste">
                 
                 <ul>
@@ -117,19 +129,27 @@
     
     <div class="controle">
         
-         <!-- Swiper -->
-              <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    
-                    <div class="swiper-slide"><img  src="imgs/banner.jpg" style="width:100%" ></div>
-                    <div class="swiper-slide"> <img  src="imgs/sala2.jpg" style="width:100%"></div>
-                    <div class="swiper-slide">    <img  src="imgs/sala3.jpg" style="width:100%"></div>
-                  
-                </div>
-                <!-- Add Pagination -->
-                <div class="swiper-pagination"></div>
-              </div>
-
+ 
+        
+          <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+       <div class="swiper-slide"><img  src="imgs/banner.jpg" style="width:100%" ></div>
+      <div class="swiper-slide"> <img  src="imgs/sala2.jpg" style="width:100%"></div>
+      <div class="swiper-slide">    <img  src="imgs/sala3.jpg" style="width:100%"></div>
+      <div class="swiper-slide"><div style="width: 100%; height: 100%; background: red;"></div></div>
+      <div class="swiper-slide">Slide 5</div>
+      <div class="swiper-slide">Slide 6</div>
+      <div class="swiper-slide">Slide 7</div>
+      <div class="swiper-slide">Slide 8</div>
+      <div class="swiper-slide">Slide 9</div>
+      <div class="swiper-slide">Slide 10</div>
+    </div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+       <div class="swiper-pagination"></div>
+  </div>
       
         <!--Seção Sala-->  
    
@@ -336,6 +356,8 @@
     
 </div> 
    
+  
+    
        <footer>
            
         <div class="divisao1">
@@ -457,17 +479,46 @@
         </footer>
     
    <script src="codigo.js"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/js/swiper.min.js"></script>
-     <script>
-    var swiper = new Swiper('.swiper-container', {
+    <style>
+        .swiper-pagination-bullet{
+            padding: 20px;
+            background: brown;
+        }
+    </style>
+    
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/js/swiper.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+      var swiper = new Swiper('.swiper-container', {
       spaceBetween: 30,
       pagination: {
         el: '.swiper-pagination',
         clickable: true,
-        direction:'horizontal',
-        loop: true,
       },
     });
+      
+       var mySwiper = new Swiper ('.swiper-container', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: true,
+
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+
+    // And if we need scrollbar
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+  })
   </script>
 </body>
 </html>

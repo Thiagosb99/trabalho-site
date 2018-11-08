@@ -9,6 +9,7 @@ document.getElementById("corpo").onscroll= function(){fixar()};
             var cabecalho =document.getElementById("p2").offsetHeight;
             if(document.body.scrollTop > cabecalho || document.documentElement.scrollTop > cabecalho){
             document.getElementById("menu").classList.add("menu-fix");
+            
              
                 for(i=0; i<= blocossecoes.length; i++){
             
@@ -18,9 +19,7 @@ document.getElementById("corpo").onscroll= function(){fixar()};
                     }else if(i==2 || i==5 || i==8 || i == 11){
                         document.getElementsByClassName("img-bloco1")[i].classList.add("tp2");
                     }
-                    
-                    
-                    
+
                 }
             
                 
