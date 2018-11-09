@@ -533,61 +533,44 @@ h5{
     margin-left: 3%;
     font-size: 1.2vw;
 }
+/*--------------------------------------------------------------*/
+
 
 .divisao3{
     margin-top: 0;
-    background: black;
-    height: 13vh;
-    margin-bottom: 25px;
-}
-.bloco-divisao3:nth-child(1){
-    margin-top: 0;
-    width: 40%;
-   
-}
-.bloco-divisao3:nth-child(2){
-    margin-top: 2%;
+    height: 100%;
+     background-color: inherit;
 }
 .bloco-divisao3{
-    width: 15%;
-    margin-left: 0%;
-    float: left;
-    height: auto;
-    margin-top: 3%;
+    height: 100%;
+    width: 30%;
   
-    
- 
+    float: left;
+    margin-left: 25px;
 }
-.bloco-divisao3 p{
-    font-weight: bold;
-    font-size: 1.2vw;
+.bloco-divisao3:nth-child(2){
+    width: 60%;
 }
 .bloco-divisao3 img{
-    margin: 10px 0 0 0;
-    width: 16%;
+    width: 15%;
+    margin: 0;
 }
+.bloco-divisao3 h5, .bloco-divisao3 p{
+    margin: 0;
+    text-align: left;
+    color: #666;
+  
+   
+}
+
 .bloco-divisao3 h5{
-    margin-top: 0;
-    float: left;
-}
-
-.bloco-divisao3 div p{
-    width: 40%;
-    float: left;
-}
-.bloco-divisao3 div p i{
-    margin-left: 0%;
-    font-size: 1.2vw;
+font-size: 1vw;
+    margin-bottom: 15px;
 }
 
 
 
-
-
-
-
-
-/*footer e header responsivos*/
+/*footerr responsivos*/
 @media (max-width: 1024px) and (min-width: 250px){
    
     /*header*/
@@ -601,8 +584,6 @@ h5{
     }
 
 
-    
-    
     
     
     
@@ -643,6 +624,7 @@ form p.p-form{
 }
 .bloco-divisao1 p{
     font-size: 5vw;
+   
 }
 .bloco-divisao1 form legend{
   font-size: 8vw;
@@ -703,45 +685,51 @@ h5{
 .bloco-divisao2 p i{
     margin-top: 25px;
     font-size: 60px;
+    color: #444;
 }
 /*---FIM divisao2/ bloco 2------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/  
 
     
-    
-    /*divisao 3*/
-    
     .divisao3{
-    margin-top: 0%;;
+    margin-top: 0;
     height: 100%;
-    margin-bottom: 25px;
-}
-.bloco-divisao3:nth-child(1){
-    margin-top: 0%;
-    width: 100%;
-}
-.bloco-divisao3:nth-child(2){
-    margin-top: 0%;
+     background-color: inherit;
+   
 }
 .bloco-divisao3{
+    height: 100%;
     width: 100%;
-    margin-left: 0%;
+  
     float: none;
-    height: 25px;
-    margin-top: 0%; 
+    margin-left: 0px;
 }
-.bloco-divisao3 p{
-  display: none;
-    }
+.bloco-divisao3:nth-child(2){
+    width: 100%;
+   
+}
 .bloco-divisao3 img{
-    margin: 10px 0 0 0;
-    width: 15%;
+    width: 16%;
+    margin: 0;
 }
 .bloco-divisao3 h5{
+    margin: 0;
+    float: none;
+    text-align: inherit;
+    color: #666;
+  
    
-    display: none;
+}
+
+.bloco-divisao3 h5{
+font-size: 2vw;
+    margin-bottom: 15px;
 }
 
 
+    
+    
+  
+    
 
     
     
@@ -813,10 +801,12 @@ button i{
     }
     
     
-    
+    .subteste{
+        margin-top: 25px;
+    }
 .nav-mobile{
     width: 100%;
-    height: 100%;
+    height: 80vh;
     background-color: green;
     position: absolute;
     top: 0%;
@@ -825,15 +815,10 @@ button i{
 }
 .cel{
     width: 100%;
-    height: 100px;
+    height: 80vh;
   
 }
-    .subteste{
-        height: 30vh;
-    }
-     .subteste:nth-child(1){
-        height:70vh;
-    }
+    
 
     .nav-mobile .subteste, .subteste ul li ul li{
          background-color: #aaa;
@@ -841,18 +826,30 @@ button i{
     
 .nav-mobile ul li ul{
          display: block;
+    height: 100%;
     }   
+    .nav-mobile ul li:hover{
+        border-radius: 0;
+        background-color: #555;
+    }
+    .nav-mobile ul li:hover p i{
+        
+        background-color: inherit;
+    }
     .nav-mobile ul li ul li, .nav-mobile .subteste, .subteste ul li p i{
         font-size: 4vw;
     }   
     
     #fecharmenu{
-      width: 5vw; 
-        height: 5vh;
+      width: 8vw; 
+        height: 8vh;
         position: absolute; 
          left: 90%;
         top:-10%;
-        background: red;
+        background-color: inherit;
+        border-radius: 90px;
+        color: #fff;
+        border: solid #fff 1px;
     }
     
     

@@ -43,12 +43,13 @@ document.getElementById("corpo").onscroll= function(){fixar()};
      
 
 function eitateste(){
-    document.getElementsByClassName("swiper-wrapper")[0].style.marginTop="800px";
+  
+    document.getElementsByClassName("swiper-container")[0].style.marginTop="880px";
     document.getElementsByClassName("nav-mobile")[0].style.display="block";
     
 }
 function eitapeste(){
-    document.getElementsByClassName("swiper-wrapper")[0].style.marginTop="0px";
+     document.getElementsByClassName("swiper-container")[0].style.marginTop="0px";
     document.getElementsByClassName("nav-mobile")[0].style.display="none";
 }
 
