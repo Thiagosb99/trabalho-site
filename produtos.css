@@ -1,0 +1,77 @@
+
+.controle{
+    background: #ddd;
+    height: 1000px;
+    
+}
+.sub-controle2, .sub-controle1{
+      height: 100%;
+       float: left;
+}
+.sub-controle1{
+    width: 20%;
+    background: green;
+ 
+}
+
+.sub-controle2{
+    width: 80%;
+    background: orange;
+}
+.exibir-produtos{
+    width: 24%;
+    margin: 0 0.5%;
+    height: 45vh;
+    background: blue;
+    float: left;
+}
+/*reset menus LUL*/
+.menu-produtos{
+    width: 100%;
+    padding: 25px;
+    font-family: arial;
+    font-size: 1.3vw;
+   
+}
+.menu-produtos li{
+    font-weight: bold;
+    color: #000;
+  width: 100%;
+
+}
+.menu-produtos li a{
+     color: #fff;
+     padding: 15px 0;
+    }
+.menu-produtos li a:hover{
+     color: #000;
+    background-color: brown;
+
+}
+.menu-produtos li:hover{
+     border-radius: 0;
+    border-radius: 0;
+    background-color: inherit;
+}
+.menu-produtos li ul{
+    margin: 35px;
+}
+
+.menu-produtos li ul li{
+    font-weight: normal;
+    padding: 15px 0;
+}
+.menu-produtos li ul li:hover{
+    font-weight: normal;
+    color: #000;
+    background-color: brown;
+}
+.menu-produtos{
+    
+}
+.menu-produtos{
+    
+}
+
+
+

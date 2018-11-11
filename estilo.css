@@ -13,7 +13,6 @@
     background-color: 	white;
     width: 80%;
     height:auto;
-    border-radius: 20px;
 }
 
 
@@ -27,190 +26,194 @@ header{
     height: 300px;
    
 }
+        /*pesquisa area*/
+        .pesquisa{
+            width: 100%;
+            height: 200px;
+            background-color: #342015;
+        }
 
-.pesquisa{
-    width: 100%;
-    height: 200px;
-    background-color: #342015;
-}
+        .pes-bloco{
+            width: 25%;
+            height: 200px;
+            float: left;
+        }
+        .pes-bloco:nth-child(2){
+            width: 50%;
+        }
 
-.pes-bloco{
-    width: 25%;
-    height: 200px;
-    float: left;
-}
-.pes-bloco:nth-child(2){
-    width: 50%;
-}
+        img{
+            margin-top: 10px;
+            margin-left: 30%;
+            float: left;
+        }
 
-img{
-    margin-top: 10px;
-    margin-left: 30%;
-    float: left;
-}
+        input{
+            width: 95%;
+            border-radius: 10px;
+            padding: 12px 20px;
+            border: 2px solid #555;
+            margin-top: 75px;
+            margin-left: 2%;
+            background-color: #2c1f15;
+            color:white;
+            box-sizing: border-box;
+        }
 
-input{
-    width: 95%;
-    border-radius: 10px;
-    padding: 12px 20px;
-    border: 2px solid #555;
-    margin-top: 75px;
-    margin-left: 2%;
-    background-color: #2c1f15;
-    color:white;
-    box-sizing: border-box;
-}
+        button{
 
-button{
-    
-    background-color: #342015;
-    border: none;
-    margin-top: 65px;
-}
-button i{
-   color: #fff;
-    padding: 10px;
-}
+            background-color: #342015;
+            border: none;
+            margin-top: 65px;
+        }
+        button i{
+           color: #fff;
+            padding: 10px;
+        }
 
-/*---Fim Pesquisa--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*---Fim Pesquisa------------------------------------------------------------------------------------------------------------*/
 
+    /*Menus*/
+        .nav-mobile{
+            width: 100%;
+            height: 100%;
+            background-color: green;
+            position: absolute;
+            top: 50%;
+            display: none;
 
-.nav-mobile{
-    width: 100%;
-    height: 100%;
-    background-color: green;
-    position: absolute;
-    top: 50%;
-    display: none;
-    
-}
-.cel{
-    width: 100%;
-    height: 100px;
-   background-color: #342015;
-}
+        }
+        .cel{
+            width: 100%;
+            height: 100px;
+            background-color: #342015;
+        }
+/*----------------*/
 
-/*Menu*/
+        .teste{
+            width: 100%;
+            height: 100px;
+            background-color: #342015;
+        }
+        .subteste{
 
-.teste{
-    width: 100%;
-    height: 100px;
-   background-color: #342015;
-}
-.subteste{
-    
-    width: 32%; 
-    float: left;
-    margin: 0 0.5%;
-}
+            width: 32%; 
+            float: left;
+            margin: 0 0.5%;
+        }
 
-.subteste p{
-    text-align: center;
-    color: #906c2b;
-    
-}
-.subteste ul li ul {
-    margin-top: 40px;
-    height: 0px;
-    display: none;
-}
+        .subteste p{
+            text-align: center;
+            color: #906c2b;
 
-ul li{
-    cursor: pointer;
-    list-style: none;
-    transition: all 0.5s;
-    
-}
-ul li:hover, ul li:hover p i {
-    background-color: #2c1f15;
-    border-radius: 90px 90px 0 0;
-    color: #fff;
-}
+        }
+        .subteste ul li ul {
+            margin-top: 40px;
+            height: 0px;
+            display: none;
+        }
+        ul a{
+            color: white;
+            text-decoration: none;
+        }
+        ul li{
+            cursor: pointer;
+            list-style: none;
+            transition: all 0.5s;
 
-.menu-fix{
-    position: fixed;
-    left: -25%;
-    transition: all 0.5s;
-    background-color:#2C1F15;
-    border-radius: 0 90px 90px 0;
-   
-}
+        }
+        ul li:hover, ul li:hover p i {
+            background-color: #2c1f15;
+            border-radius: 90px 90px 0 0;
+            color: #fff;
+        }
+        
+            /*menu fixado*/
+        .menu-fix{
+            position: fixed;
+            left: -25%;
+            transition: all 0.5s;
+            background-color:#2C1F15;
+            border-radius: 0 90px 90px 0;
 
-.menu-fix{
-    position: fixed;
-    left: -25%;
-    transition: all 0.5s;
-    background-color:#2C1F15;
-    border-radius: 0 90px 90px 0;
-    
-}
+        }
 
-.menu-fix:hover{
-    left: -18%;
-    border-radius: 0 90px 0 0;
-}
-.menu-fix ul li{
-    padding-left: 50%;
-}
-.menu-fix:hover ul li{
-   
-}
-ul li ul li:hover{
-    border-radius: 0;
-    opacity: 0.9;
-}
-.subteste ul li ul li{
-    
-   font-size: 25px;
-  font-family: 'PT Sans', sans-serif;
-    color: #fff;
-    text-align: center;
-     float: none;
-    padding: 25px;
-    font-weight: bold;
-  background-color: #2c1f15;
-}
-.subteste ul:hover li ul{
-    display: block;
-}
+        .menu-fix{
+            position: fixed;
+            left: -25%;
+            transition: all 0.5s;
+            background-color:#2C1F15;
+            border-radius: 0 90px 90px 0;
 
-#menuzin{
-        display: none;
-    }
-/*---FIM MENU-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+        }
 
-/*---FIM HEADER-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+        .menu-fix:hover{
+            left: -18%;
+            border-radius: 0 90px 0 0;
+        }
+        .menu-fix ul li{
+            padding-left: 50%;
+        }
+        .menu-fix:hover ul li{
+
+        }
+
+        /*fim fixado menu*/
+
+        ul li ul li:hover{
+            border-radius: 0;
+            opacity: 0.9;
+        }
+        .subteste ul li ul li{
+
+            font-size: 25px;
+            font-family: 'PT Sans', sans-serif;
+            color: #fff;
+            text-align: center;
+            float: none;
+            padding: 25px;
+            font-weight: bold;
+            background-color: #2c1f15;
+        }
+        .subteste ul:hover li ul{
+            display: block;
+        }
+
+        #menuzin{
+            display: none;
+        }
+/*---FIM MENU---------------------------------------------------------------------------------------------------------------------------*/
+
+/*---FIM HEADER-------------------------------------------------------------------------------------------------------------------------*/
 
 
 /*Slider================================================================================================================*/
-  .swiper-container {
-      width: 100%;
-      height: 100%;
-      
+
+.swiper-container {
+    
+    width: 100%;
+    height: 100%;
     display: none;
-    }
-    .swiper-slide {
-      text-align: center;
-        margin-bottom: 40px;
-      font-size: 18px;
-      background: #fff;
-      /* Center slide text vertically */
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: -webkit-flex;
-      display: flex;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      -webkit-justify-content: center;
-      justify-content: center;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      -webkit-align-items: center;
-      align-items: center;
-    }
-
-
-
+}
+.swiper-slide {
+    
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 18px;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
 
 .sub-container{      
     
@@ -308,7 +311,7 @@ ul li ul li:hover{
 
 
 
- /*Móveis Seções*/
+ /*Móveis Seções ==================================================================================================================*/
 
 h3{
     font-family: 'PT Sans', sans-serif;
@@ -321,7 +324,7 @@ h3{
     border-left: solid 5px #f1f1f1;
     border-bottom: solid 2px #f1f1f1;
     border-radius: 20px;
-    height: 60vh;
+    height: 58vh;
 }
 
 .bloco1{
@@ -330,7 +333,7 @@ h3{
     margin: 1.55%;
     float: left;   
     background-color: none;
-    height: 500px;
+    height: 100%;
 }
 
 .controle img.img-bloco1{
@@ -390,19 +393,13 @@ p span{
 
 
 
-/*---FIM MÓVEIS SEÇÕES------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-*/
+/*---FIM MÓVEIS SEÇÕES------------------------------------------------------------------------------------------------------------------*/
 
 
 
 
 
-
-
-
-
-
-/*footer*/
+/*footer ===========================================================================================================*/
 
 footer{
     width: 100%;
@@ -417,322 +414,313 @@ footer{
     background:rgb(192,192,192, 0.4);
 }
 
-/*bloco 1*/
-.bloco-divisao1{
-    width: 45%;
-    margin: 20px 2.5%;
-    border-radius: 20px;
-    height: 300px;
-    float: left;
-}
-.bloco-divisao1:nth-child(2){
-    margin-top: 0;
-}
+        /*bloco 1*/
+        .bloco-divisao1{
+            width: 45%;
+            margin: 20px 2.5%;
+            border-radius: 20px;
+            height: 300px;
+            float: left;
+        }
+        .bloco-divisao1:nth-child(2){
+            margin-top: 0;
+        }
 
-h4{
-    font-size: 3vw;
-    font-family: 'Pattaya', sans-serif;
-    margin-left: 2%;
-}
-form p.p-form{
-    width: 100%; 
-    text-align: center;
-    color:black;
-    font-weight: bold;
-    font-size: 1.5vw;s
-}
-.bloco-divisao1 p{
-    color: #505050;
-    font-family: calibri;
-    font-size: 1.1vw;
-}
-.bloco-divisao1 form legend{
-  font-size: 2vw;
-    font-family: 'Pattaya', sans-serif;
-}
-fieldset{
-      border: #ccc 1px solid;
-    border-radius: 25px;
-      background: #F8F8F8;
-}
+        h4{
+            font-size: 3vw;
+            font-family: 'Pattaya', sans-serif;
+            margin-left: 2%;
+        }
+        form p.p-form{
+            width: 100%; 
+            text-align: center;
+            color:black;
+            font-weight: bold;
+            font-size: 1.5vw;s
+        }
+        .bloco-divisao1 p{
+            color: #505050;
+            font-family: calibri;
+            font-size: 1.1vw;
+        }
+        .bloco-divisao1 form legend{
+            font-size: 2vw;
+            font-family: 'Pattaya', sans-serif;
+        }
+        fieldset{
+           border: #ccc 1px solid;
+           border-radius: 25px;
+           background: #F8F8F8;
+        }
 
-.bloco-divisao1 form input{
-    width: 60%;
-    border-radius: 0px;
-    padding: 12px 20px;
-    border: 2px solid #555;
-    margin:20px  0 20px 0; 
-    margin-left: 0%;
-    background-color: inherit;
-    color:white;
-    box-sizing: border-box;
-}
-.bloco-divisao1 button{
-    margin:25px 0;
-    padding: 15px 50px;
-    background: #ddd;
-    border: white 1px solid;
-}
-/*---------------------------------------------------*/
-
-.divisao2{
-    background:black;
-    height: 400px;
-}
-.bloco-divisao2{
-    height: 50px;
-    width: 20%;
- 
-    float: left;
-}
-
-.bloco-divisao2:nth-child(4){
-    width: 40%;
-}
-.bloco-divisao2 ul{
-    margin-top: 80px;
-}
-.bloco-divisao2 ul li{
-    padding: 0;
-    font-size: 1.5vw;
-    font-family: calibri;
-    text-align: center;
-     color:  #a6a6a6;
-    margin: 10px 0;
-}
-.bloco-divisao2 ul li:first-child{
-    font-size: 1.6vw;
-    font-weight: bold;
-    color: #fff;
-    margin-bottom: 10px;
-}
-.bloco-divisao2 ul li:hover{
-    background-color: inherit;
-   color: #fff;
-}
-
-h5{
-    text-align: center;
-    font-family: 'PT Sans', sans-serif;
-    font-size: 2vw;
-    margin: 80px 0;
-    color:  #fff;
-}
-
-.bloco-divisao2 p i{
-    float: left;
-    width: 25%;
-    font-size: 70px;
-    text-align: center;
-    margin-left: 0%;
-    color: 	 #b3b300;
-    margin-bottom: 85px;
-}
-
-.bloco-divisao2 div p i{
-    margin-left: 3%;
-    font-size: 1.2vw;
-}
-/*--------------------------------------------------------------*/
+        .bloco-divisao1 form input{
+            width: 60%;
+            border-radius: 0px;
+            padding: 12px 20px;
+            border: 2px solid #555;
+            margin:20px  0 20px 0; 
+            margin-left: 0%;
+            background-color: inherit;
+            color:white;
+            box-sizing: border-box;
+        }
+        .bloco-divisao1 button{
+            margin:25px 0;
+            padding: 15px 50px;
+            background: #ddd;
+            border: white 1px solid;
+        }
+        /*--fim bloco 1-------------------------------------------------*/
 
 
-.divisao3{
-    margin-top: 0;
-    height: 100%;
-     background-color: inherit;
-}
-.bloco-divisao3{
-    height: 100%;
-    width: 30%;
-  
-    float: left;
-    margin-left: 25px;
-}
-.bloco-divisao3:nth-child(2){
-    width: 60%;
-}
-.bloco-divisao3 img{
-    width: 15%;
-    margin: 0;
-}
-.bloco-divisao3 h5, .bloco-divisao3 p{
-    margin: 0;
-    text-align: left;
-    color: #666;
-  
-   
-}
+/*Bloco 2 ----------------------------*/
 
-.bloco-divisao3 h5{
-font-size: 1vw;
-    margin-bottom: 15px;
-}
+        .divisao2{
+            background:black;
+            height: 400px;
+        }
+        .bloco-divisao2{
+            height: 50px;
+            width: 20%;
+            float: left;
+        }
 
+        .bloco-divisao2:nth-child(4){
+            width: 40%;
+        }
+        .bloco-divisao2 ul{
+            margin-top: 80px;
+        }
+        .bloco-divisao2 ul li{
+            padding: 0;
+            font-size: 1.5vw;
+            font-family: calibri;
+            text-align: center;
+            color:  #a6a6a6;
+            margin: 10px 0;
+        }
+        .bloco-divisao2 ul li:first-child{
+            font-size: 1.6vw;
+            font-weight: bold;
+            color: #fff;
+            margin-bottom: 10px;
+        }
+        .bloco-divisao2 ul li:hover{
+            background-color: inherit;
+            color: #fff;
+        }
+
+        h5{
+            text-align: center;
+            font-family: 'PT Sans', sans-serif;
+            font-size: 2vw;
+            margin: 80px 0;
+            color:  #fff;
+        }
+
+        .bloco-divisao2 p i{
+            float: left;
+            width: 25%;
+            font-size: 70px;
+            text-align: center;
+            margin-left: 0%;
+            color: 	 #b3b300;
+            margin-bottom: 85px;
+        }
+
+        .bloco-divisao2 div p i{
+            margin-left: 3%;
+            font-size: 1.2vw;
+        }
+        /*---fim bloco 2-----------------------------------------------------------*/
+
+        /*bloco 3-----------------------------*/
+        .divisao3{
+            margin-top: 0;
+            height: 100%;
+            background-color: inherit;
+        }
+        .bloco-divisao3{
+            height: 100%;
+            width: 30%;
+            float: left;
+            margin-left: 25px;
+        }
+        .bloco-divisao3:nth-child(2){
+            width: 60%;
+        }
+        .bloco-divisao3 img{
+            width: 15%;
+            margin: 0;
+        }
+        .bloco-divisao3 h5, .bloco-divisao3 p{
+            margin: 0;
+            text-align: left;
+            color: #666;
+        }
+
+        .bloco-divisao3 h5{
+            font-size: 1vw;
+            margin-bottom: 15px;
+        }
+        /*fim bloco 3-----------------------------------------------*/
 
 
 /*footerr responsivos*/
 @media (max-width: 1024px) and (min-width: 250px){
-   
-    /*header*/
+
+/*header*/
 .swiper-container{
- display: block;
+display: block;
 
 }
-    
+
 .slide-bloco{
-    display: none;
-    }
+display: none;
+}
+.controle img{
 
+border-radius: 0px;
+}
 
     
-    
-    
-   
-    
-    footer{
-    width: 100%;
-    margin-top: 50px;
-  
+footer{
+width: 100%;
+margin-top: 50px;
+
 }
 
 
-   .divisao1, .divisao2, .divisao3{
-    height: 62vh;  
+.divisao1, .divisao2, .divisao3{
+height: 62vh;  
 }
 
 /*bloco 1*/
 
-    .divisao1{
-     height: 100%;   
-        padding-bottom: 25px;
-    }
+.divisao1{
+height: 100%;   
+
+}
 .bloco-divisao1{
-    width: 100%;
-    margin: 0 0 30px 0;
-    height: 50%;
-    float: none;
+width: 100%;
+margin: 0 0 30px 0;
+height: 50%;
+float: none;
 }    
 h4{
-    font-size:10vw;
-    text-align: center;
-    margin-left: 0%;
-    padding: 25px;
+font-size:10vw;
+text-align: center;
+margin-left: 0%;
+padding: 25px;
 }
 form p.p-form{
-    width: 100%; 
-    font-size: 5vw;
+width: 100%; 
+font-size: 5vw;
 }
 .bloco-divisao1 p{
-    font-size: 5vw;
-   
+font-size: 5vw;
+
 }
 .bloco-divisao1 form legend{
-  font-size: 8vw;
+font-size: 8vw;
 }
-    .bloco-divisao1 form input{
-        width: 90%;
-        padding: 0.5vw 0.1vw;
-        font-size: 4vw;
-        color: black;
-    }
+.bloco-divisao1 form input{
+width: 90%;
+padding: 0.5vw 0.1vw;
+font-size: 4vw;
+color: black;
+}
 
 .bloco-divisao1 button{
-    margin:10px 0;
-    width: 40%;
-    font-size: 4vw;
+margin:10px 0;
+width: 40%;
+font-size: 4vw;
 }
-  /*---FIM divisao1/ bloco 1------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/  
-    
-    /*divisao2*/
-    
+/*---FIM divisao1/ bloco 1------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/  
+
+/*divisao2*/
+
 .divisao2{
 background:black;
 height: 100%;
 }
 .bloco-divisao2{
-    height: 40%;
-    width: 100%;
-    float: none;
+height: 40%;
+width: 100%;
+float: none;
 }
 
 .bloco-divisao2:nth-child(4){
-    width: 100%;
-    background-color: black;
+width: 100%;
+background-color: black;
 }
 .bloco-divisao2 ul{
-    margin-top: 0px;
+margin-top: 0px;
 }
 .bloco-divisao2 ul li{
-   
-    font-size: 40px;
-    
+
+font-size: 40px;
+
 }
-    .bloco-divisao2 ul li:hover{
-        border-radius: 0;
-    }
+.bloco-divisao2 ul li:hover{
+border-radius: 0;
+}
 .bloco-divisao2 ul li:first-child{
-    font-size:45px;
-    padding: 25px 0;
-    
-   
+font-size:45px;
+padding: 25px 0;
+
+
 }
 
 h5{
-    font-size: 45px;
-    margin: 0px 0; 
+font-size: 45px;
+margin: 0px 0; 
 }
 
 .bloco-divisao2 p i{
-    margin-top: 25px;
-    font-size: 60px;
-    color: #444;
+margin-top: 25px;
+font-size: 60px;
+color: #444;
 }
 /*---FIM divisao2/ bloco 2------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/  
 
-    
-    .divisao3{
-    margin-top: 0;
-    height: 100%;
-     background-color: inherit;
-   
+
+.divisao3{
+margin-top: 0;
+height: 100%;
+background-color: inherit;
+
 }
 .bloco-divisao3{
-    height: 100%;
-    width: 100%;
-  
-    float: none;
-    margin-left: 0px;
+height: 100%;
+width: 100%;
+
+float: none;
+margin-left: 0px;
 }
 .bloco-divisao3:nth-child(2){
-    width: 100%;
-   
+width: 100%;
+
 }
 .bloco-divisao3 img{
-    width: 16%;
-    margin: 0;
+width: 16%;
+margin: 0;
 }
 .bloco-divisao3 h5{
-    margin: 0;
-    float: none;
-    text-align: inherit;
-    color: #666;
-  
-   
+margin: 0;
+float: none;
+text-align: inherit;
+color: #666;
+
+
 }
 
 .bloco-divisao3 h5{
 font-size: 2vw;
-    margin-bottom: 15px;
+margin-bottom: 15px;
 }
 
 
-    
-    
-  
-    
-
-    
-    
 }
 
 
@@ -741,133 +729,121 @@ font-size: 2vw;
 
 @media (max-width: 768px) and (min-width: 250px){
     /*Slider*/
-    .controle{
-       width: 100%;
-        margin-top: 0;
-    }
-   
+.controle{
+width: 100%;
+margin-top: 0;
+}
+
 header{
-    height: 350px;
-    background-color: red;
-    margin-bottom: 0px;
+height: 350px;
+margin-bottom: 0px;
 }
 
 
 .pesquisa{
-    width: 100%;
-    height: 300px;
-   
+width: 100%;
+height: 300px;
+
 }
 
 .pes-bloco{
-    width: 100%;
-    height: 150px;
+width: 100%;
+height: 150px;
 }
 .pes-bloco:nth-child(1){
-  text-align: center;
-    float: none;
+text-align: center;
+float: none;
 }
 .pes-bloco:nth-child(2){
-    width: 90%;
+width: 90%;
 }
 .pes-bloco:nth-child(3){
-    width: 10%;
+width: 10%;
 }
 
 img{
-    margin-left: 0%;
-    float: none;
+margin-left: 0%;
+float: none;
 }
 
 button{
-    margin-top: 75px;
+margin-top: 75px;
 }
 button i{
-    padding: 0px;
+padding: 0px;
 }
 
 /*-FIM PESQUISA---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
- 
-    header{
-        position: relative;
-        background-color: inherit;
-    }
-    #menuzin{
-        position: absolute;
-        top: 0;
-        font-size: 12vw;
-        left: 1%;
-        display: block;
-    }
-    
-    
-    .subteste{
-        margin-top: 25px;
-    }
-.nav-mobile{
-    width: 100%;
-    height: 80vh;
-    background-color: green;
-    position: absolute;
-    top: 0%;
-   /* display: block; */
-   
-}
-.cel{
-    width: 100%;
-    height: 80vh;
-  
-}
-    
 
-    .nav-mobile .subteste, .subteste ul li ul li{
-         background-color: #aaa;
-    }    
-    
+header{
+position: relative;
+background-color: inherit;
+}
+#menuzin{
+position: absolute;
+top: 0;
+font-size: 12vw;
+left: 1%;
+display: block;
+}
+
+.nav-mobile{
+width: 100%;
+height: 80vh;
+position: absolute;
+top: 0%;
+/* display: block; */
+
+}
+
+
+.nav-mobile .subteste, .subteste ul li ul li{
+background-color: #aaa;
+}    
+
 .nav-mobile ul li ul{
-         display: block;
-    height: 100%;
-    }   
-    .nav-mobile ul li:hover{
-        border-radius: 0;
-        background-color: #555;
-    }
-    .nav-mobile ul li:hover p i{
-        
-        background-color: inherit;
-    }
-    .nav-mobile ul li ul li, .nav-mobile .subteste, .subteste ul li p i{
-        font-size: 4vw;
-    }   
-    
-    #fecharmenu{
-      width: 8vw; 
-        height: 8vh;
-        position: absolute; 
-         left: 90%;
-        top:-10%;
-        background-color: inherit;
-        border-radius: 90px;
-        color: #fff;
-        border: solid #fff 1px;
-    }
-    
-    
+display: block;
+height: 100%;
+}   
+.nav-mobile ul li:hover{
+border-radius: 0;
+background-color: #555;
+}
+.nav-mobile ul li:hover p i{
+
+background-color: inherit;
+}
+.nav-mobile ul li ul li, .nav-mobile .subteste, .subteste ul li p i{
+font-size: 4vw;
+}   
+
+#fecharmenu{
+padding: 13px;
+position: absolute; 
+left: 90%;
+top:-10%;
+background-color: inherit;
+border-radius: 90px;
+color: #fff;
+border: solid #fff 1px;
+}
+
+
 /*Menu*/
 .teste{
-    height: 100%;
-    display: none;
+height: 100%;
+display: none;
 }
 .subteste{
-     background-color: #342015;
-    width: 100%; 
-    float: left;
-     padding: 30px 0 ;
-    margin: 0;
+background-color: #342015;
+width: 100%; 
+float: left;
+padding: 30px 0 ;
+margin: 0;
 }
 
 .subteste ul:hover li ul{
-    height: 100%;
+height: 100%;
 }
 
 /*---FIM MENU-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -876,339 +852,152 @@ button i{
 
 
 
-    
 
-
-
-.slide-bloco{
-    
-    width: 100%;
-    height: 100%;
-   margin-bottom: 20px;
-
-}
-.sub-container{      
-  
-    width: 0%;    
-    display: none;
-    padding-top: 0%;
-    float: none;
-}
-
-.sub-container:nth-child(2){
-    padding-top: 0;
-    display: block;
-    width: 100%;
-    margin: 0 0%;
-    
-}
-
-
-
-.mySlides{
-    display: none;         
-}
-            
 .controle img{
-    width: 100%;
-    margin-left: 0;
-    height: ;
-    border-radius: 0px;
-    }
-.demo{
-width: 50px;
- height: 50px;
-border: solid 3px;
- border-radius: 5px;
-border-color: #aaa;
- background-color: #ddd;
-margin-left: 5px;
-    margin-top: 5px;
- }
-
-.w3-left, .w3-right, .w3-badge {
- cursor:pointer;
-background:#887C6E;
-padding: 10px;
-    font-size: 35px;
-    color: white;
-    text-align: center;
-    border-radius: 90px;
-    margin-bottom: 500%;
+border-radius: 0px;
 }
 
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-@keyframes fade {
-    from {opacity: .4} 
-  to {opacity: 1}
-}
 
 
 /*---FIM SLIDER-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 
-
-
-
-
-
- /*Móveis Seções*/
+/*Móveis Seções*/
 
 h3{
-     font-family: 'PT Sans', sans-serif;
-    font-weight: bold;
-    font-size: 4.5vw;
-    margin-left: 0%;
-    text-align: center;
-    border-bottom: 5px solid #ffd280;
-    margin-bottom: 15px;
+font-size: 4.5vw;
+margin-left: 0%;
+text-align: center;
+border-bottom: 5px solid #ffd280;
+margin-bottom: 15px;
 }
 .moveis-secao{
-    border:0;
-    border-radius: 0px;
-    height: 100%;
-    background-color: inherit;
+border:0;
+border-radius: 0px;
+height: 100%;
+background-color: inherit;
 width: 95%;
-    }
+}
 
 .bloco1{
-    width:100%;
-    margin: 0%;
-    float: none;   
-    background-color: none;
-    height: 100%;
+width:100%;
+margin: 0%;
+float: none;   
+height: 100%;
 }
 
 .controle img.img-bloco1{
-    margin-left: 0;
-    margin-top: 0;
-    width:100%;
-    margin-bottom: 15px;
-    border-radius: 5px;
-    transition: all 0.8s;
-    width: 80%;
-    margin-left: 10%
-  
-}
-.img-bloco1:hover{
-      box-sizing: border-box;
-    transform: scale(1.1);
-}
-
-section p{
-    font-family: arial;
-    font-size: 2wv;
-    letter-spacing: 0.5px;
-    width: 90%;
-    color: #939393;
-    
+margin-left: 0;
+margin-top: 0;
+width:100%;
+width: 80%;
+margin-left: 10%
 
 }
+
+
+
 p span{
-    font-weight: bold;
-    font-size: 6vw;
-    color: #3f3f3f;
-    text-align: center;
+font-size: 6vw;
 }
 
 
 .botao-comprar{
- border: 1px solid gray;
-  color: white;
-  font-size: 6vw;
-  width: 100%;
-    font-family: arial;
-    transition: all 1s;
-    opacity: 0.9;
-    padding: 15px 0;
+font-size: 6vw;
+width: 100%;
+opacity: 0.9;
+padding: 15px 0;
 margin-top: 15px;
-    margin-bottom: 50px;
-    background-color:  #006622;
-   
-    
+margin-bottom: 50px;
+background-color:  #006622;
 }
 .botao-comprar:hover{
-    opacity:1;
-    border-radius: 0 20px 0 20px ;
+opacity:1;
+border-radius: 0 20px 0 20px ;
 }
 
 
 
 
 
-/*---FIM MÓVEIS SEÇÕES------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-*/
-
-
-   
-
-
-
-    
-    
+/*---FIM MÓVEIS SEÇÕES------------------------------------------------------------------------------------------------------------------*/
 }
 
 
 
 @media (max-width: 1024px) and (min-width: 769px){
-        .controle{
-       width: 100%;
-        margin-top: 0;
-    }
-   
-
-    .pesquisa input{
-        width: 95%;
-        float: right;
-    }
-
-
     
-
-  
-
-
-.slide-bloco{
-    
-    width: 100%;
-    height: 100%;
-   margin-bottom: 20px;
-
-}
-.sub-container{      
-  
-    width: 0%;    
-    display: none;
-    padding-top: 0%;
-    float: none;
+.controle{
+width: 100%;
+margin-top: 0;
 }
 
-.sub-container:nth-child(2){
-    padding-top: 0;
-    display: block;
-    width: 100%;
-    margin: 0 0%;
-    
+
+.pesquisa input{
+width: 95%;
+float: right;
 }
 
 
 
-.mySlides{
-    display: none;         
-}
-            
-.controle img{
-    width: 100%;
-    margin-left: 0;
-    height: ;
-    border-radius: 0px;
-    }
-.demo{
-width: 50px;
- height: 50px;
-border: solid 3px;
- border-radius: 5px;
-border-color: #aaa;
- background-color: #ddd;
-margin-left: 5px;
-    margin-top: 5px;
- }
-    
-    
-    
-    
-    h3{
-      font-family: 'PT Sans', sans-serif;
-    font-weight: bold;
-    font-size: 3vw;
-    margin-left: 4%;
-        margin-bottom: 15px;
+
+/*secoes*/
+
+h3{
+font-size: 3vw;
+margin-bottom: 15px;
 }
 .moveis-secao{
-    border:none;
-    border-radius: 0px;
-    height: 100%;
+border:none;
+border-radius: 0px;
+height: 100%;
 }
 
 .bloco1{
-    width:32%;
-    margin:0 0.3%;
-    float: left;   
-    background-color: none;
-    height: 100%;
-    margin-bottom: 50px;
+width:32%;
+margin:0 0.3%;
+float: left;   
+background-color: none;
+height: 100%;
+margin-bottom: 50px;
 }
 
 .controle img.img-bloco1{
-    margin-left: 0;
-    margin-top: 0;
-    width:100%;
-    margin-bottom: 15px;
-    border-radius: 5px;
-    transition: all 0.8s;
-  
-}
-.img-bloco1:hover{
-      box-sizing: border-box;
-    transform: scale(1.1);
+margin-left: 0;
+margin-top: 0;
+width:100%;
+
+
 }
 
 p{
-    font-family: arial;
-    font-size: 1wv;
-    letter-spacing: 0.5px;
-    width: 90%;
-    color: #939393;
-    
+font-family: arial;
+font-size: 1wv;
+letter-spacing: 0.5px;
+width: 90%;
+color: #939393;
+
 
 }
 p span{
-    font-weight: bold;
-    font-size: 2vw;
-    color: #3f3f3f;
-    text-align: center;
+font-size: 2vw;
 }
 
 
 .botao-comprar{
- border: 1px solid gray;
-  color: white;
-  font-size: 3vw;
-  width: 100%;
-    font-family: arial;
-    transition: all 1s;
-    opacity: 0.4;
-    padding: 5px 0;
+font-size: 3vw;
+width: 100%;
 margin-top: 15px;
-   
-    
+
 }
-.botao-comprar:hover{
-    opacity: 0.8;
-    border-radius: 0 20px 0 20px ;
+footer{
+margin-top: 45%;
 }
 
 
-    footer{
-        margin-top: 45%;
-    }
+/*---FIM MÓVEIS SEÇÕES------------------------------------------------------------------------------------------------------------------*/
 
 
-/*---FIM MÓVEIS SEÇÕES------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-*/
-    
-    
 }
 
 

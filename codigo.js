@@ -44,13 +44,15 @@ document.getElementById("corpo").onscroll= function(){fixar()};
 
 function eitateste(){
   
-    document.getElementsByClassName("swiper-container")[0].style.marginTop="880px";
+    
     document.getElementsByClassName("nav-mobile")[0].style.display="block";
+    document.getElementsByClassName("swiper-container")[0].style.marginTop="880px";
     
 }
 function eitapeste(){
-     document.getElementsByClassName("swiper-container")[0].style.marginTop="0px";
+     
     document.getElementsByClassName("nav-mobile")[0].style.display="none";
+    document.getElementsByClassName("swiper-container")[0].style.marginTop="0px";
 }
 
 
@@ -63,16 +65,20 @@ function eitapeste(){
 /*Alterar alturas*/
     function altura(){
 
-        if(screen.width>"1024"){
+        if(screen.width>"768"){
             
             document.getElementById("p2").style.height = "660px";
         }
     }
     function altura2(){
-
-        if(screen.width>"1024"){
+         if(screen.width>"1024"){
             
             document.getElementById("p2").style.height = "420px";
+        }
+        
+        if(screen.width>"768" && screen.width<="1024"){
+            
+            document.getElementById("p2").style.height = "550px";
         }
 
     }
