@@ -570,14 +570,7 @@ footer{
 @media (max-width: 1024px) and (min-width: 250px){
 
 /*header*/
-.swiper-container{
-display: block;
 
-}
-
-.slide-bloco{
-display: none;
-}
 .controle img{
 
 border-radius: 0px;
@@ -733,7 +726,14 @@ margin-bottom: 15px;
 width: 100%;
 margin-top: 0;
 }
+.swiper-container{
+display: block;
 
+}
+
+.slide-bloco{
+display: none;
+}
 header{
 height: 350px;
 margin-bottom: 0px;
@@ -929,7 +929,7 @@ border-radius: 0 20px 0 20px ;
     
 .controle{
 width: 100%;
-margin-top: 0;
+
 }
 
 

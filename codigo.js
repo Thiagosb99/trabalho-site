@@ -65,7 +65,7 @@ function eitapeste(){
 /*Alterar alturas*/
     function altura(){
 
-        if(screen.width>"768"){
+        if(screen.width>"1024"){
             
             document.getElementById("p2").style.height = "660px";
         }
@@ -76,10 +76,7 @@ function eitapeste(){
             document.getElementById("p2").style.height = "420px";
         }
         
-        if(screen.width>"768" && screen.width<="1024"){
-            
-            document.getElementById("p2").style.height = "550px";
-        }
+       
 
     }
 
