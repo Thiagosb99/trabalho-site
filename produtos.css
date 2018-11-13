@@ -181,7 +181,8 @@
         color: #333;
     }
     #produtosfiltro:hover{
-        transform: scale(1.2);
+        background-color: #333;
+        color: #fff;
     }
     
     .menu-produtos, .menu-produtos li ul li {
