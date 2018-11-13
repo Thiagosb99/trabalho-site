@@ -1,62 +1,21 @@
+
 <!DOCTYPE html>
 <html>
 <head>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
     <link rel="stylesheet" href="teste1.css">
+    <link rel="stylesheet" href="">
     <link href="https://fonts.googleapis.com/css?family=Pattaya" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> home - Orlando móveis</title>
-    
-    
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/css/swiper.min.css">
-
-  <!-- Demo styles -->
-   <style>
-    html, body {
-      position: relative;
-      height: 100%;
-    }
-    body {
-      background: #fff;
-      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-      font-size: 14px;
-      color:#000;
-      margin: 0;
-      padding: 0;
-    }
-    .swiper-container {
-      width: 100%;
-      height: 100%;
-    }
-    .swiper-slide {
-      text-align: center;
-      font-size: 18px;
-      background: #fff;
-      /* Center slide text vertically */
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: -webkit-flex;
-      display: flex;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      -webkit-justify-content: center;
-      justify-content: center;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      -webkit-align-items: center;
-      align-items: center;
-    }
-  </style>
-    
-    
-    
-    
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/css/swiper.min.css">
+    <title> Móveis para sala- Orlando móveis</title>
+      
 </head>
-<body id="corpo">
-    <header id="p2" >
+    <body id="corpo">
+    
+      <header id="p2" >
         
         <div class="pesquisa">
             
@@ -65,7 +24,11 @@
             <div class="pes-bloco"><button> <i class="fas fa-search fa-3x"></i></button></div>
        
         </div>
+     
+         <p><i onclick="eitateste()" id="menuzin" class="fas fa-bars fa-4x"></i> 
         
+             <!--Menu -->
+             
         <div class="teste">
             
             <div id="menu" class="subteste">
@@ -73,11 +36,11 @@
                     <li  onmousemove="altura()" onmouseout="desaltura()">  <p><i class="fas fa-bars fa-4x"></i> </p> 
                         
                       <ul>
-                        <li ><i class="fas fa-h-square"></i> Home</li>
-                        <li><i class="fas fa-couch"></i> Sala</li>
-                        <li><i class="fas fa-utensils"></i> Cozinha</li>
-                        <li><i class="fas fa-bed"></i> Quarto</li>
-                        <li><i class="fas fa-chair"></i> Área externa</li>
+                        <li ><a href="index.html"> <i class="fas fa-h-square"></i> Home</a></li>
+                          <li> <a href="#"><i class="fas fa-couch"></i> Sala</a></li>
+                          <li> <a href="#"><i class="fas fa-utensils"></i> Cozinha</a></li>
+                          <li> <a href="#"><i class="fas fa-bed"></i> Quarto</a></li>
+                          <li> <a href="#"><i class="fas fa-chair"></i> Área externa</a></li>
                       </ul>
                 
                     </li>
@@ -90,20 +53,14 @@
                     <li onmousemove="altura2()" onmouseout="desaltura()" ><p><i class="fas fa-shopping-cart fa-4x"></i> </p>
                         
                         <ul>
-                            <li><i class="fas fa-plus"></i> Adicionar outro produto</li>
-                            <li><i class="fas fa-shopping-bag"></i> Minhas Compras</li>
+                            <li> <a href="#"> <i class="fas fa-plus"></i> Adicionar outro produto </a></li>
+                            <li> <a href="#"> <i class="fas fa-shopping-bag"></i> Minhas Compras </a></li>
                         </ul>
                         
                     </li>
                     
                 </ul>
             </div>
-            
-            
-            
-  
-            
-            
             
             <div class="subteste">
                 
@@ -112,8 +69,8 @@
                     <li onmousemove="altura2()" onmouseout="desaltura()" ><p><i class="fas fa-user fa-4x"></i> </p>
                         
                         <ul>
-                            <li><i class="fas fa-sign-in-alt"></i> Fazer Login</li>
-                            <li><i class="fas fa-user-plus"></i> Cadastrar-se</li>
+                            <li><a href="#"><i class="fas fa-sign-in-alt"></i> Fazer Login</a></li>
+                            <li><a href="#"><i class="fas fa-user-plus"></i> Cadastrar-se</a></li>
                         </ul>
                         
                     </li>
@@ -125,242 +82,476 @@
         </div>
         
     </header>
-    
-    
-    <div class="controle">
-        
- 
-        
-          <!-- Swiper -->
-  <div class="swiper-container">
-    <div class="swiper-wrapper">
-       <div class="swiper-slide"><img  src="imgs/banner.jpg" style="width:100%" ></div>
-      <div class="swiper-slide"> <img  src="imgs/sala2.jpg" style="width:100%"></div>
-      <div class="swiper-slide">    <img  src="imgs/sala3.jpg" style="width:100%"></div>
-      <div class="swiper-slide"><div style="width: 100%; height: 100%; background: red;"></div></div>
-      <div class="swiper-slide">Slide 5</div>
-      <div class="swiper-slide">Slide 6</div>
-      <div class="swiper-slide">Slide 7</div>
-      <div class="swiper-slide">Slide 8</div>
-      <div class="swiper-slide">Slide 9</div>
-      <div class="swiper-slide">Slide 10</div>
-    </div>
-    <!-- Add Arrows -->
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
-       <div class="swiper-pagination"></div>
-  </div>
-      
-        <!--Seção Sala-->  
-   
-       <h3>Móveis para Sala</h3>
-        
-         <section class="moveis-secao">
-             
-             <div class="bloco1">
-                 
-                 <img src="imgs/sala1.jpg" class="img-bloco1" >    
-                 
-                    <p> Sala Completa Modulada com 5 Módulos Branco - Caaza  </p><br>
-                    <p><span>R$148,55</span> à Vista  <br>
-                    <b>5x</b> R$31,27 s/ juros</p>
-                 <button class="botao-comprar">COMPRAR</button>
-                 
+       
+        <!--Menu mobile-->
+        <div class="nav-mobile">
+             <div class="cel">
+            
+            <div id="menu" class="subteste">
+                <ul>
+                    <li  onmousemove="altura()" onmouseout="desaltura()">  <p><i class="fas fa-bars fa-4x"></i> <button onclick="eitapeste()" id="fecharmenu" >X</button></p> 
+                        
+                      <ul>
+                        <li > <a href="index.html"> <i class="fas fa-h-square"></i> Home</a> </li>
+                          <li><a href="#"><i class="fas fa-couch"></i> Sala</a></li>
+                          <li><a href="#"><i class="fas fa-utensils"></i> Cozinha</a></li>
+                          <li><a href="#"><i class="fas fa-bed"></i> Quarto</a></li>
+                          <li><a href="#"><i class="fas fa-chair"></i> Área externa</a></li>
+                      </ul>
+                
+                    </li>
+                    
+                </ul>
             </div>
-             
-             <div class="bloco1">
-                 
-                <img src="imgs/sala1.jpg" class="img-bloco1" >    
-                 
-                    <p> Sala Completa Modulada com 5 Módulos Branco - Caaza  </p><br>
-                    <p><span>R$148,55</span> à Vista  <br>
-                    <b>5x</b> R$31,27 s/ juros</p>
-                 <button class="botao-comprar">COMPRAR</button>
-                 
-             </div>
-             
-            <div class="bloco1">
-                
-                <img src="imgs/sala1.jpg" class="img-bloco1" >   
-                
-                    <p> Sala Completa Modulada com 5 Módulos Branco - Caaza  </p><br>
-                    <p><span>R$148,55</span> à Vista  <br>
-                    <b>5x</b> R$31,27 s/ juros</p>
-                 <button class="botao-comprar">COMPRAR</button>
-                
-             </div>
-           
-        </section>  
-        
-        <!--Seção Cozinha-->
-        
-         <h3>Móveis para Cozinha</h3>
-            <section class="moveis-secao">
-                
-                <div class="bloco1">
+            
+            <div  class="subteste">
+                <ul>
+                    <li onmousemove="altura2()" onmouseout="desaltura()" ><p><i class="fas fa-shopping-cart fa-4x"></i> </p>
+                        
+                        <ul>
+                            <li><a href="#"><i class="fas fa-plus"></i> Adicionar outro produto</a></li>
+                            <li><a href="#"><i class="fas fa-shopping-bag"></i> Minhas Compras</a></li>
+                        </ul>
+                        
+                    </li>
                     
-                    <img src="imgs/cozinha1.jpg" class="img-bloco1" >    
-                    <p> Sala Completa Modulada com 5 Módulos Branco - Caaza  </p><br>
-                    <p><span>R$148,55</span> à Vista  <br>
-                    <b>5x</b> R$31,27 s/ juros</p>
-                 <button class="botao-comprar">COMPRAR</button>
-                    
-                </div>
-                
-                <div class="bloco1">
-                    
-                    <img src="imgs/cozinha1.jpg" class="img-bloco1" >  
-                    
-                    <p> Sala Completa Modulada com 5 Módulos Branco - Caaza  </p><br>
-                    <p><span>R$148,55</span> à Vista  <br>
-                    <b>5x</b> R$31,27 s/ juros</p>
-                 <button class="botao-comprar">COMPRAR</button>
-                    
-                </div>
-                
-                <div class="bloco1">
-                    
-                    <img src="imgs/cozinha1.jpg" class="img-bloco1" >     
-                    <p> Sala Completa Modulada com 5 Módulos Branco - Caaza  </p><br>
-                    <p><span>R$148,55</span> à Vista  <br>
-                    <b>5x</b> R$31,27 s/ juros</p>
-                 <button class="botao-comprar">COMPRAR</button>
-                    
-                </div>
-           
-        </section> 
-        
-          <!--Seção Quarto-->
-        
-       <h3>Móveis para Quarto</h3>
-        
-         <section class="moveis-secao">
-             
-             <div class="bloco1">
-                 
-                 <img src="imgs/quarto1.jpg" class="img-bloco1" >    
-                 <p> Sala Completa Modulada com 5 Módulos Branco - Caaza  </p><br>
-                 <p><span>R$148,55</span> à Vista  <br>
-                 <b>5x</b> R$31,27 s/ juros</p>
-                 <button class="botao-comprar">COMPRAR</button>
-                 
-             </div>
-             
-             <div class="bloco1">
-             
-                 <img src="imgs/quarto1.jpg" class="img-bloco1" >    
-                 <p> Sala Completa Modulada com 5 Módulos Branco - Caaza  </p><br>
-                 <p><span>R$148,55</span> à Vista  <br>
-                    <b>5x</b> R$31,27 s/ juros</p>
-                 <button class="botao-comprar">COMPRAR</button>
-             
+                </ul>
             </div>
+            
+            <div class="subteste">
+                
+                <ul>
+                    
+                    <li onmousemove="altura2()" onmouseout="desaltura()" ><p><i class="fas fa-user fa-4x"></i> </p>
+                        
+                        <ul>
+                            <li><a href="#"><i class="fas fa-sign-in-alt"></i> Fazer Login</a></li>
+                            <li><a href="#"><i class="fas fa-user-plus"></i> Cadastrar-se</a></li>
+                        </ul>
+                        
+                    </li>
+                    
+                </ul>
+        
+            </div>
+            
+        </div>
+        </div>
+        
+         <div class="controle">
              
-             <div class="bloco1">
+             <a href="#p2"><button id="voltartopo" class="voltar-topo"><i class="fas fa-angle-up"></i></button></a>
+             
+             <div class="sub-controle1">
                  
-                 <img src="imgs/quarto1.jpg" class="img-bloco1" >  
-                 
-                 <p> Sala Completa Modulada com 5 Módulos Branco - Caaza  </p><br>
-                 <p><span>R$148,55</span> à Vista  <br>
-                    <b>5x</b> R$31,27 s/ juros</p>
-                 <button class="botao-comprar">COMPRAR</button>
-                 
+                <ul class="menu-produtos">
+                    
+                    <li><a href="#">Sala de estar</a>
+                        <ul>
+                            <li><a href="#estar_estante">Estantes</a></li>
+                            <li><a href="#estar_paineltv">Painel de TV</a></li>
+                            <li><a href="#estar_poltrona">Poltrona</a></li>
+                            <li><a href="#estar_mesa">Mesa</a></li>
+                            <li><a href="#estar_prateleira">Prateleira</a></li>
+                           
+                            
+                        </ul>
+
+                    </li> 
+                     <li><a href="#">Sala de jantar</a>
+                        <ul>
+                            <li><a href="#jantar_cadeira">Cadeira</a></li>
+                            <li><a href="#jantar_mesa">Mesa</a></li>
+                            <li><a href="#jantar_balcao">Balcão</a></li>
+                        </ul>
+                     </li>
+                </ul>
+             
              </div>
-              
-        </section>   
-        
-       <!--Seção Jardim-->
-        
-          <h3>Móveis para Área externa</h3>
-        
-         <section class="moveis-secao">
              
-             <div class="bloco1">
+             
+             
+             <div class="sub-controle2">
                  
-                 <img src="imgs/jardim1.jpg" class="img-bloco1" >    
-                 <p> Sala Completa Modulada com 5 Módulos Branco - Caaza  </p><br>
-                 <p><span>R$148,55</span> à Vista  <br>
-                    <b>5x</b> R$31,27 s/ juros</p>
-                 <button class="botao-comprar">COMPRAR</button>
                  
-             </div>
-             
-             <div class="bloco1">
-             
-                 <img src="imgs/jardim1.jpg" class="img-bloco1" >  
-                    <p> Sala Completa Modulada com 5 Módulos Branco - Caaza  </p><br>
+                 
+                 <h2 id="estar_estante">Sala de Estar - Móveis e decorações</h2>
+                 
+                 <!--Estantes-->
+                 
+                 <div class="region-produtos">
+                     
+                 <h3>Estantes</h3>
+               
+                <div class="exibir-produtos">
+                    
+                    <img src="imgs/estante1.jpg" alt="Estante Marron">
+               
+             <p>Estante Home Theater Dalla Costa com 2 Portas e 9 Prateleiras</p><br>
                     <p><span>R$148,55</span> à Vista  <br>
                     <b>5x</b> R$31,27 s/ juros</p>
                  <button class="botao-comprar">COMPRAR</button>
-             
-             </div>
-             
-          <div class="bloco1">
-              
-                <img src="imgs/jardim1.jpg" class="img-bloco1" >   
-                <p> Sala Completa Modulada com 5 Módulos Branco - Caaza  </p><br>
-                <p><span>R$148,55</span> à Vista  <br>
+                 </div>
+                 <div class="exibir-produtos"> 
+                     
+                     <img src="imgs/estante1.jpg" alt="Estante Marron">
+               
+             <p>Estante Home Theater Dalla Costa com 2 Portas e 9 Prateleiras</p><br>
+                    <p><span>R$148,55</span> à Vista  <br>
                     <b>5x</b> R$31,27 s/ juros</p>
                  <button class="botao-comprar">COMPRAR</button>
-              
-            </div>
+                 </div>
+               <div class="exibir-produtos"> 
+                   
+                   <img src="imgs/estante1.jpg" alt="Estante Marron">
+               
+             <p>Estante Home Theater Dalla Costa com 2 Portas e 9 Prateleiras</p><br>
+                    <p><span>R$148,55</span> à Vista  <br>
+                    <b>5x</b> R$31,27 s/ juros</p>
+                 <button class="botao-comprar">COMPRAR</button>
+                 </div>
+                <div class="exibir-produtos"> 
+                    
+                    <img src="imgs/estante1.jpg" alt="Estante Marron">
+               
+             <p>Estante Home Theater Dalla Costa com 2 Portas e 9 Prateleiras</p><br>
+                    <p><span>R$148,55</span> à Vista  <br>
+                    <b>5x</b> R$31,27 s/ juros</p>
+                 <button class="botao-comprar">COMPRAR</button>
+                 </div>
+                 
+                 
+             </div>
+                 
+                 <!--painel de tv-->
+                 
+                   <div class="region-produtos">
+                     
+                 <h3 >Painel de TV</h3>
+               
+                <div class="exibir-produtos">
+                    
+                    <img id="estar_paineltv" src="imgs/paineldetv1.jpg" alt="painel de tv led">
+               
+             <p>Painel para TV TB125L com LED - Dalla Costa </p><br>
+                    <p><span>R$148,55</span> à Vista  <br>
+                    <b>5x</b> R$31,27 s/ juros</p>
+                 <button class="botao-comprar">COMPRAR</button>
+                 </div>
+                 <div class="exibir-produtos"> 
+                     
+                    <img src="imgs/paineldetv1.jpg" alt="painel de tv led">
+               
+               <p>Painel para TV TB125L com LED - Dalla Costa </p><br>
+                    <p><span>R$148,55</span> à Vista  <br>
+                    <b>5x</b> R$31,27 s/ juros</p>
+                 <button class="botao-comprar">COMPRAR</button>
+                 </div>
+               <div class="exibir-produtos"> 
+                   
+                  <img src="imgs/paineldetv1.jpg" alt="painel de tv led">
+               
+                <p>Painel para TV TB125L com LED - Dalla Costa </p><br>
+                    <p><span>R$148,55</span> à Vista  <br>
+                    <b>5x</b> R$31,27 s/ juros</p>
+                 <button class="botao-comprar">COMPRAR</button>
+                 </div>
+                <div class="exibir-produtos"> 
+                    
+                   <img src="imgs/paineldetv1.jpg" alt="painel de tv led">
+               
+              <p>Painel para TV TB125L com LED - Dalla Costa </p><br>
+                    <p><span>R$148,55</span> à Vista  <br>
+                    <b>5x</b> R$31,27 s/ juros</p>
+                 <button class="botao-comprar">COMPRAR</button>
+                 </div>
+                 
+                 
+             </div>
+                
+                 <!--poltronas-->
+                   <div class="region-produtos">
+                     
+                 <h3 >Poltrona</h3>
+               
+                <div class="exibir-produtos">
+                    
+                    <img id="estar_poltrona" src="imgs/poltrona1.jpg" alt="Poltrona Cinza">
+               
+             <p>Poltrona Bulgari Cinza</p><br>
+                    <p><span>R$148,55</span> à Vista  <br>
+                    <b>5x</b> R$31,27 s/ juros</p>
+                 <button  class="botao-comprar">COMPRAR</button>
+                 </div>
+                 <div class="exibir-produtos"> 
+                     
+                   <img src="imgs/poltrona1.jpg" alt="Poltrona Cinza">
+               
+            <p>Poltrona Bulgari Cinza</p><br>
+                    <p><span>R$148,55</span> à Vista  <br>
+                    <b>5x</b> R$31,27 s/ juros</p>
+                 <button class="botao-comprar">COMPRAR</button>
+                 </div>
+               <div class="exibir-produtos"> 
+                   
+                  <img src="imgs/poltrona1.jpg" alt="Poltrona Cinza">
+                   
+            <p>Poltrona Bulgari Cinza</p><br>
+                    <p><span>R$148,55</span> à Vista  <br>
+                    <b>5x</b> R$31,27 s/ juros</p>
+                 <button class="botao-comprar">COMPRAR</button>
+                 </div>
+                <div class="exibir-produtos"> 
+                    
+                  <img src="imgs/poltrona1.jpg" alt="Poltrona Cinza">
+               
+             <p>Poltrona Bulgari Cinza</p><br>
+                    <p><span>R$148,55</span> à Vista  <br>
+                    <b>5x</b> R$31,27 s/ juros</p>
+                 <button class="botao-comprar">COMPRAR</button>
+                 </div>
+                 
+                 
+             </div>
+                 
+                 
+                 <!--mesa sala de estar-->
+                 
+                   <div class="region-produtos">
+                     
+                 <h3 >Mesa</h3>
+               
+                <div class="exibir-produtos">
+                    
+                    <img id="estar_mesa" src="imgs/mesasaladeestar1.jpg" alt="Mesa de centro">
+               
+             <p>Mesa de Centro Martina Castanho Acetinado - Volttoni </p><br>
+                    <p><span>R$148,55</span> à Vista  <br>
+                    <b>5x</b> R$31,27 s/ juros</p>
+                 <button class="botao-comprar">COMPRAR</button>
+                 </div>
+                 <div class="exibir-produtos"> 
+                     
+                   <img src="imgs/mesasaladeestar1.jpg" alt="Mesa de centro">
+               
+             <p>Mesa de Centro Martina Castanho Acetinado - Volttoni </p><br>
+                    <p><span>R$148,55</span> à Vista  <br>
+                    <b>5x</b> R$31,27 s/ juros</p>
+                 <button class="botao-comprar">COMPRAR</button>
+                 </div>
+               <div class="exibir-produtos"> 
+                   
+                 <img src="imgs/mesasaladeestar1.jpg" alt="Mesa de centro">
+               
+              <p>Mesa de Centro Martina Castanho Acetinado - Volttoni </p><br>
+                    <p><span>R$148,55</span> à Vista  <br>
+                    <b>5x</b> R$31,27 s/ juros</p>
+                 <button class="botao-comprar">COMPRAR</button>
+                 </div>
+                <div class="exibir-produtos"> 
+                    
+                   <img src="imgs/mesasaladeestar1.jpg" alt="Mesa de centro">
+               
+              <p>Mesa de Centro Martina Castanho Acetinado - Volttoni </p><br>
+                    <p><span>R$148,55</span> à Vista  <br>
+                    <b>5x</b> R$31,27 s/ juros</p>
+                 <button class="botao-comprar">COMPRAR</button>
+                 </div>
+                 
+                 
+             </div>
+                 
+                   <!--Prateleira-->
+                 
+                   <div class="region-produtos">
+                     
+                 <h3 >Prateleira</h3>
+               
+                <div class="exibir-produtos">
+                    
+                    <img id="estar_prateleira" src="imgs/prateleira1.jpg" alt="Prateleira de parede branca">
+               
+             <p>Kit 7 Peças Nichos Cubo L Prateleira Mdf Branco </p><br>
+                    <p><span>R$148,55</span> à Vista  <br>
+                    <b>5x</b> R$31,27 s/ juros</p>
+                 <button class="botao-comprar">COMPRAR</button>
+                 </div>
+                 <div class="exibir-produtos"> 
+                     
+                   <img src="imgs/prateleira1.jpg" alt="Prateleira de parede branca">
+               
+             <p>Kit 7 Peças Nichos Cubo L Prateleira Mdf Branco </p><br>
+                    <p><span>R$148,55</span> à Vista  <br>
+                    <b>5x</b> R$31,27 s/ juros</p>
+                 <button class="botao-comprar">COMPRAR</button>
+                 </div>
+               <div class="exibir-produtos"> 
+                   
+                 <img src="imgs/prateleira1.jpg" alt="Prateleira de parede branca">
+               
+             <p>Kit 7 Peças Nichos Cubo L Prateleira Mdf Branco </p><br>
+                    <p><span>R$148,55</span> à Vista  <br>
+                    <b>5x</b> R$31,27 s/ juros</p>
+                 <button class="botao-comprar">COMPRAR</button>
+                 </div>
+                <div class="exibir-produtos"> 
+                    
+                   <img src="imgs/prateleira1.jpg" alt="Prateleira de parede branca">
+               
+            <p>Kit 7 Peças Nichos Cubo L Prateleira Mdf Branco </p><br>
+                    <p><span>R$148,55</span> à Vista  <br>
+                    <b>5x</b> R$31,27 s/ juros</p>
+                 <button class="botao-comprar">COMPRAR</button>
+                 </div>
+                 
+                 
+             </div>
+                 
+                  
+                 
+                 <!--Cadeira sala de jantar-->
+                 
+                 <div class="region-produtos">
+                     
+                      <h2 class="bug">Sala de Jantar - Móveis e decorações</h2>
+                     
+                 <h3 >Cadeira</h3>
+               
+                <div class="exibir-produtos">
+                    
+                    <img id="jantar_cadeira" src="imgs/cadeirajantar1.jpg" alt="Cadeira Jantar">
+               
+             <p>Cadeira Liv Natural e Omega</p><br>
+                    <p><span>R$148,55</span> à Vista  <br>
+                    <b>5x</b> R$31,27 s/ juros</p>
+                 <button class="botao-comprar">COMPRAR</button>
+                 </div>
+                 <div class="exibir-produtos"> 
+                     
+                   <img src="imgs/cadeirajantar1.jpg" alt="Cadeira Jantar">
+               
+             <p>Cadeira Liv Natural e Omega</p><br>
+                    <p><span>R$148,55</span> à Vista  <br>
+                    <b>5x</b> R$31,27 s/ juros</p>
+                 <button class="botao-comprar">COMPRAR</button>
+                 </div>
+               <div class="exibir-produtos"> 
+                   <img src="imgs/cadeirajantar1.jpg" alt="Cadeira Jantar">
+               
+             <p>Cadeira Liv Natural e Omega</p><br>
+                    <p><span>R$148,55</span> à Vista  <br>
+                    <b>5x</b> R$31,27 s/ juros</p>
+                 <button class="botao-comprar">COMPRAR</button>
+                 </div>
+                <div class="exibir-produtos"> 
+                    
+                  <img src="imgs/cadeirajantar1.jpg" alt="Cadeira Jantar">
+               
+             <p>Cadeira Liv Natural e Omega</p><br>
+                    <p><span>R$148,55</span> à Vista  <br>
+                    <b>5x</b> R$31,27 s/ juros</p>
+                 <button class="botao-comprar">COMPRAR</button>
+                 </div>
+                 
+                     
+             </div>
+                   
+                 <!--Mesa sala de jantar-->
+                 
+                 <div class="region-produtos">
+                     
+                 <h3 >Mesa</h3>
+               
+                <div class="exibir-produtos">
+                    
+                    <img id="jantar_mesa" src="imgs/mesajantar1.jpg" alt="mesa Jantar">
+               
+             <p>Mesa De Jantar - Mesa Fli E Cadeiras Belli</p><br>
+                    <p><span>R$148,55</span> à Vista  <br>
+                    <b>5x</b> R$31,27 s/ juros</p>
+                 <button class="botao-comprar">COMPRAR</button>
+                 </div>
+                 <div class="exibir-produtos"> 
+                     
+                 <img src="imgs/mesajantar1.jpg" alt="mesa Jantar">
+               
+             <p>Mesa De Jantar - Mesa Fli E Cadeiras Belli</p><br>
+                    <p><span>R$148,55</span> à Vista  <br>
+                    <b>5x</b> R$31,27 s/ juros</p>
+                 <button class="botao-comprar">COMPRAR</button>
+                 </div>
+               <div class="exibir-produtos"> 
+                   <img src="imgs/mesajantar1.jpg" alt="mesa Jantar">
+               
+             <p>Mesa De Jantar - Mesa Fli E Cadeiras Belli</p><br>
+                    <p><span>R$148,55</span> à Vista  <br>
+                    <b>5x</b> R$31,27 s/ juros</p>
+                 <button class="botao-comprar">COMPRAR</button>
+                 </div>
+                <div class="exibir-produtos"> 
+                    
+                  <img src="imgs/mesajantar1.jpg" alt="mesa Jantar">
+               
+             <p>Mesa De Jantar - Mesa Fli E Cadeiras Belli</p><br>
+                    <p><span>R$148,55</span> à Vista  <br>
+                    <b>5x</b> R$31,27 s/ juros</p>
+                 <button class="botao-comprar">COMPRAR</button>
+                 </div>
+                 
+                     
+             </div>
+                 
+                   <!--Balcão sala de jantar-->
+                 
+                 <div class="region-produtos">
+                     
+                 <h3 >Balcão</h3>
+               
+                <div class="exibir-produtos">
+                    
+                    <img id="jantar_balcao" src="imgs/balcao1.jpg" alt="Balcão">
+               
+             <p>Balcão Buffet Madesa 7305 Rustic Com Pés</p><br>
+                    <p><span>R$148,55</span> à Vista  <br>
+                    <b>5x</b> R$31,27 s/ juros</p>
+                 <button class="botao-comprar">COMPRAR</button>
+                 </div>
+                 <div class="exibir-produtos"> 
+                     
+                 <img src="imgs/balcao1.jpg" alt="Balcão">
+               
+             <p>Balcão Buffet Madesa 7305 Rustic Com Pés</p><br>
+                    <p><span>R$148,55</span> à Vista  <br>
+                    <b>5x</b> R$31,27 s/ juros</p>
+                 <button class="botao-comprar">COMPRAR</button>
+                 </div>
+               <div class="exibir-produtos"> 
+                   <img src="imgs/balcao1.jpg" alt="Balcão">
+               
+             <p>Balcão Buffet Madesa 7305 Rustic Com Pés</p><br>
+                    <p><span>R$148,55</span> à Vista  <br>
+                    <b>5x</b> R$31,27 s/ juros</p>
+                 <button class="botao-comprar">COMPRAR</button>
+                 </div>
+                <div class="exibir-produtos"> 
+                    
+                  <img src="imgs/balcao1.jpg" alt="Balcão">
+               
+             <p>Balcão Buffet Madesa 7305 Rustic Com Pés</p><br>
+                    <p><span>R$148,55</span> à Vista  <br>
+                    <b>5x</b> R$31,27 s/ juros</p>
+                 <button class="botao-comprar">COMPRAR</button>
+                 </div>
+                 
+                     
+             </div>
+                 
+             </div>
+             
+        </div>
+             <footer>
            
-        </section>  
-        
-         
-        <!--
-        
-    
-       <div>
-   <h2><i class="fas fa-utensils"></i>Cozinha</h2>
-    <hr>
-        <div class="bloco1">
-            <img src="imgs/cozinha1.jpg" class="img-bloco1" >
-        </div>
-      <div class="bloco1">
-         <img src="imgs/cozinha1.jpg" class="img-bloco1" >
-        </div>
-      <div class="bloco1">
-      <img src="imgs/cozinha1.jpg" class="img-bloco1" >
-        </div>
-        </div>
-        
-           <div>
-   <h2><i class="fas fa-bed"></i>Quarto</h2>
-    <hr>
-        <div class="bloco1">
-            <img src="imgs/quarto1.jpg" class="img-bloco1" >
-        </div>
-      <div class="bloco1">
-         <img src="imgs/quarto1.jpg" class="img-bloco1" >
-        </div>
-      <div class="bloco1">
-      <img src="imgs/quarto1.jpg" class="img-bloco1" >
-        </div>
-        </div>
-        
-        
-           <div>
-   <h2><i class="fas fa-bed"></i>Jardim</h2>
-    <hr>
-        <div class="bloco1">
-            <img src="imgs/quarto1.jpg" class="img-bloco1" >
-        </div>
-      <div class="bloco1">
-         <img src="imgs/quarto1.jpg" class="img-bloco1" >
-        </div>
-      <div class="bloco1">
-      <img src="imgs/quarto1.jpg" class="img-bloco1" >
-        </div>
-        </div> -->
-    
-</div> 
-   
-  
-    
-       <footer>
-           
-        <div class="divisao1">
+        <div class="divisao1" >
             
                 <div class="bloco-divisao1">
                     
@@ -443,82 +634,35 @@
                   
                </div>
                
-           </div>
-            
-           <div class="divisao3">
+              
                
-            <div class="bloco-divisao3">
-                
-                <p>Formas de Pagamento</p>
-                
-                    <img src="imgs/ebay.png"> 
+           </div>
+          <div class="divisao3">
+           
+              <div class="bloco-divisao3">
+                  <h5>formas de pagamento</h5>
+                <img src="imgs/ebay.png"> 
                     <img src="imgs/visa.png">  
                     <img src="imgs/visaeletron.png">  
                     <img src="imgs/mastercard.png">  
                     <img src="imgs/paypal.png">  
-                    <img src="imgs/maestro.png">  
-                
-            </div>
-               
-               <div class="bloco-divisao3">
-                   
-                      <h5 >CONTATOS</h5>
-                   
-               </div>
-               
-               <div class="bloco-divisao3">   <p><i class="fas fa-phone"> </i> 11 5555-5555</p></div>
-               
-               <div class="bloco-divisao3">  <p><i class="fas fa-phone"></i>  11 3333-3333</p></div>
-               
-               <div class="bloco-divisao3">    <p ><i class="fas fa-envelope-square"></i>Contato@gmail.com</p></div>
-               
+                    <img src="imgs/maestro.png">
+              </div>
+              <div class="bloco-divisao3">
+              <h5>CONTATOS</h5>
+                  <p> <i class="fas fa-phone"></i> 11 3333-3333 <br> 
+                  <i class="fas fa-phone"></i> 11 95844-4444   <br> 
+                <i class="fas fa-envelope-square"></i> Contato@email.com.br</p>
+              
+              </div>
+           
            </div>
-           
-           <p>Copyright © 2018| Móveis Orlando| All rights reserved</p>
-           
+     
+            
+           <p style="text-align: right;">Copyright © 2018| Móveis Orlando| All rights reserved</p>
+               
+         
         </footer>
-    
-   <script src="codigo.js"></script>
-    <style>
-        .swiper-pagination-bullet{
-            padding: 20px;
-            background: brown;
-        }
-    </style>
-    
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/js/swiper.min.js"></script>
-
-  <!-- Initialize Swiper -->
-  <script>
-      var swiper = new Swiper('.swiper-container', {
-      spaceBetween: 30,
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-    });
-      
-       var mySwiper = new Swiper ('.swiper-container', {
-    // Optional parameters
-    direction: 'horizontal',
-    loop: true,
-
-    // If we need pagination
-    pagination: {
-      el: '.swiper-pagination',
-    },
-
-    // Navigation arrows
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-
-    // And if we need scrollbar
-    scrollbar: {
-      el: '.swiper-scrollbar',
-    },
-  })
-  </script>
-</body>
+        <script src="codigo.js"></script>
+    </body>
 </html>

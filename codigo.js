@@ -55,11 +55,33 @@ function eitapeste(){
     document.getElementsByClassName("swiper-container")[0].style.marginTop="0px";
 }
 
-
-
-
-
-
+var contar= 1;
+function filtrar(){
+    
+    if(contar==1){
+         document.getElementsByClassName("sub-controle1")[0].style.display="block";
+        document.getElementById("estar_estante").style.display="none";
+    }else if(contar==2){
+         document.getElementsByClassName("sub-controle1")[0].style.display="none";
+        document.getElementById("estar_estante").style.display="block";
+        contar=0;
+    }
+    contar+=1;
+    
+    /*
+    if( document.getElementsByClassName("sub-controle1")[0].style.display=="none"){
+        document.getElementById("produtosfiltro").onclick=  function(){
+            document.getElementsByClassName("sub-controle1")[0].style.display="block";
+        }
+        
+    }
+    
+    if( document.getElementsByClassName("sub-controle1")[0].style.display=="block"){
+        document.getElementById("produtosfiltro").onclick=  function(){
+            document.getElementsByClassName("sub-controle1")[0].style.display="none";
+        }
+    }*/
+}
 
 
 /*Alterar alturas*/

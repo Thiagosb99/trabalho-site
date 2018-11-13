@@ -1,4 +1,151 @@
 
+
+.controle{
+    background: #ddd;
+    height: 8500px;
+    margin-top: 80px;
+    
+}
+
+.voltar-topo{
+    padding: 10px;
+    position: fixed;
+    border-radius: 360px;
+    top: 75%;
+    left: 93%;
+    color: #906c2b;
+    font-weight: bold;
+   
+    text-align: center;
+    border: solid 2px #906c2b;
+}
+.voltar-topo i{
+     font-size: 2vw;
+}
+
+.sub-controle2, .sub-controle1{
+      height: 100%;
+       float: left;
+}
+.sub-controle1{
+    width: 20%;
+  background:#f9f9f9;
+ 
+}
+
+
+
+
+/*navegação produtos*/
+.menu-produtos{
+    width: 100%;
+   
+    font-family: arial;
+    font-size: 1.3vw;
+   
+}
+.menu-produtos li{
+    font-weight: bold;
+    width: 100%;
+
+}
+.menu-produtos li a{
+     color: #333;
+     padding: 15px 0;
+    }
+.menu-produtos li ul a:hover{
+     color: #000;
+    background-color: inherit;
+    font-size: 1.3vw;
+    
+
+}
+.menu-produtos li:hover{
+     border-radius: 0;
+    border-radius: 0;
+   background:#999966;
+    
+}
+.menu-produtos li ul{
+   
+}
+
+.menu-produtos li ul li{
+    font-weight: normal;
+    padding: 15px 0;
+     background:#f9f9f9;
+    text-indent: 2em;
+    text-align: justify;
+}
+.menu-produtos li ul li:hover{
+    font-weight: normal;
+    color: #000;
+    background-color: #fff;
+}
+/*fim navegacao produtos-------------------------------------------------*/
+
+
+.sub-controle2{
+    width: 80%;
+  background: #fff;
+}
+.sub-controle2 h2{
+    text-align: center;
+    width: 80%;
+    font-family: calibri;
+    font-size: 2vw;
+    height: auto;
+    color: #fff;
+    background: #999966;
+    opacity: 0.8;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.region-produtos{
+    width: 100%;
+    height: auto;
+    
+}
+/*.sub-controle2 hr{
+    width: 95%;
+    border:none;
+    border-radius: 50px;
+    background-color: #ddd;
+    height: 1px;
+   
+}*/
+.exibir-produtos{
+    width: 23%;
+    margin: 0 0.5%;
+    height:auto;
+    float: left;
+    border: solid 1px #ddd;
+    border-radius: 10px;
+    margin-bottom: 70px;
+}
+
+.exibir-produtos img{
+    border-radius: 0;
+    padding: 0;
+    margin-bottom: 25px;
+}
+.exibir-produtos p span{
+    font-size: 1.6vw;
+}
+.exibir-produtos button{
+    opacity: 1;
+    margin-bottom: 10px;
+    background-color: #003300;
+}
+.bug{
+    margin-top: 500px;
+}
+
+
+
+
+
 *{
     margin: 0;
     padding: 0;

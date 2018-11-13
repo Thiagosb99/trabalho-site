@@ -726,6 +726,10 @@ margin-bottom: 15px;
 width: 100%;
 margin-top: 0;
 }
+     .fa-3x{
+         margin-top: 5px;
+        font-size: 10vw;
+    }
 .swiper-container{
 display: block;
 

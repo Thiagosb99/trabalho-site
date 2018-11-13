@@ -1,77 +1,251 @@
 
 .controle{
     background: #ddd;
-    height: 1000px;
+    height: 8500px;
+    margin-top: 80px;
     
 }
+#produtosfiltro{
+    display: none;
+}
+.voltar-topo{
+    padding: 10px;
+    position: fixed;
+    border-radius: 360px;
+    top: 75%;
+    left: 93%;
+    color: #906c2b;
+    font-weight: bold;
+   
+    text-align: center;
+    border: solid 2px #906c2b;
+}
+.voltar-topo i{
+     font-size: 2vw;
+}
+
 .sub-controle2, .sub-controle1{
       height: 100%;
        float: left;
 }
 .sub-controle1{
     width: 20%;
-    background: green;
+  background:#f9f9f9;
  
 }
 
-.sub-controle2{
-    width: 80%;
-    background: orange;
-}
-.exibir-produtos{
-    width: 24%;
-    margin: 0 0.5%;
-    height: 45vh;
-    background: blue;
-    float: left;
-}
-/*reset menus LUL*/
+
+
+
+/*navegação produtos*/
 .menu-produtos{
     width: 100%;
-    padding: 25px;
+   
     font-family: arial;
     font-size: 1.3vw;
    
 }
 .menu-produtos li{
     font-weight: bold;
-    color: #000;
-  width: 100%;
+    width: 100%;
 
 }
 .menu-produtos li a{
-     color: #fff;
+     color: #333;
      padding: 15px 0;
     }
-.menu-produtos li a:hover{
+.menu-produtos li ul a:hover{
      color: #000;
-    background-color: brown;
+    background-color: inherit;
+    font-size: 1.3vw;
+    
 
 }
 .menu-produtos li:hover{
      border-radius: 0;
     border-radius: 0;
-    background-color: inherit;
+   background:#999966;
+    
 }
 .menu-produtos li ul{
-    margin: 35px;
+   
 }
 
 .menu-produtos li ul li{
     font-weight: normal;
     padding: 15px 0;
+     background:#f9f9f9;
+    text-indent: 2em;
+    text-align: justify;
 }
 .menu-produtos li ul li:hover{
     font-weight: normal;
     color: #000;
-    background-color: brown;
+    background-color: #fff;
 }
-.menu-produtos{
+/*fim navegacao produtos-------------------------------------------------*/
+
+
+.sub-controle2{
+    width: 80%;
+  background: #fff;
+}
+.sub-controle2 h2{
+    text-align: center;
+    width: 80%;
+    font-family: calibri;
+    font-size: 2vw;
+    height: auto;
+    color: #fff;
+    background: #999966;
+    opacity: 0.8;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.region-produtos{
+    width: 100%;
+    height: auto;
     
 }
-.menu-produtos{
-    
+/*.sub-controle2 hr{
+    width: 95%;
+    border:none;
+    border-radius: 50px;
+    background-color: #ddd;
+    height: 1px;
+   
+}*/
+.exibir-produtos{
+    width: 23%;
+    margin: 0 0.5%;
+    height:auto;
+    float: left;
+    border: solid 1px #ddd;
+    border-radius: 10px;
+    margin-bottom: 70px;
 }
 
+.exibir-produtos img{
+    border-radius: 0;
+    padding: 0;
+    margin-bottom: 25px;
+}
+.exibir-produtos p span{
+    font-size: 1.6vw;
+}
+.exibir-produtos button{
+    opacity: 1;
+    margin-bottom: 10px;
+    background-color: #003300;
+}
+.bug{
+    margin-top: 500px;
+}
 
+/*Mobile*/
+@media (max-width: 768px) and (min-width: 250px){
+    header{
+        height: 100%;
+    }
+    
+    .controle{
+        width:100%;
+        margin-top: 10px;
+        height: 100%;
+    }
+.sub-controle1{
+    display: none;
+        width: 100%;
+        background-color: inherit;
+        position: absolute;
+        margin-top: 0px;
+        height: 100%;
+ 
+}
+    #produtosfiltro{
+        display: block;
+        text-align: center;
+        background-color: #fff;
+        width: 100%;
+        margin: -200px 0 0px 0 ;
+        font-size: 8vw;
+        padding: 25px 0px 35px 25px;
+        color: #333;
+        font-weight: bold;
+        transform: all 2s;
+        
+    }
+    #produtosfiltro i{
+        
+        color: #333;
+    }
+    #produtosfiltro:hover{
+        transform: scale(1.2);
+    }
+    
+    .menu-produtos, .menu-produtos li ul li {
+        text-align: justify;
+        font-size: 7vw;
+    }    
+    .menu-produtos a:hover, .menu-produtos ul li a:hover{
+        font-size: 7vw;
+    }
+  
 
+    
+     .sub-controle2{
+        width: 100%;
+         float: none;
+         width: 
+    }
+    .voltar-topo{
+        left: 87%;
+        border-radius:0;
+        padding: 15px;
+        
+    }
+    .sub-controle2 h2{
+    font-size: 6vw;
+       width: 100%;
+       border-radius: 0;
+        background-color: #ffd280;
+        color: #666;
+    }
+    h3{
+        border: none;
+        text-align: left;
+        text-indent: 1em;
+    }
+    .exibir-produtos{
+        width: 50%;
+        padding: 0;
+        margin: 0;
+        border: none;
+        margin-bottom: 20px;
+        background-color: #fff;
+    }
+    p{
+        font-size: 3.7vw;
+    }
+    .exibir-produtos p span{
+        font-size: 5vw;
+    }
+    .bug{
+        margin-top: 235%;
+    }
+  
+   
+   
+}
+@media (max-width: 768px) and (min-width: 426px){
+    .bug{
+        margin-top: 225%;
+    }
+    .voltar-topo{
+        left: 87%;
+        border-radius:0;
+        padding: 20px;
+        
+    }
+}
