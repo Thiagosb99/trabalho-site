@@ -44,15 +44,29 @@ document.getElementById("corpo").onscroll= function(){fixar()};
 
 function eitateste(){
   
+       document.getElementsByClassName("nav-mobile")[0].style.display="block";
     
-    document.getElementsByClassName("nav-mobile")[0].style.display="block";
-    document.getElementsByClassName("swiper-container")[0].style.marginTop="880px";
+        if(document.URL.includes("index.html")){
+                document.getElementsByClassName("swiper-container")[0].style.marginTop="880px";
+         }
     
+        else if(document.URL.includes("sala.html")){
+                document.getElementById("estar_estante").style.display="none";
+        }
+         
+   
 }
 function eitapeste(){
      
     document.getElementsByClassName("nav-mobile")[0].style.display="none";
-    document.getElementsByClassName("swiper-container")[0].style.marginTop="0px";
+    if(document.URL.includes("index.html")){
+        
+        document.getElementsByClassName("swiper-container")[0].style.marginTop="0px";
+    }
+     else if(document.URL.includes("sala.html")){
+          document.getElementById("estar_estante").style.display="block";
+     }
+   
 }
 
 var contar= 1;

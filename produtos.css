@@ -1,7 +1,7 @@
 
 .controle{
     background: #ddd;
-    height: 8500px;
+    height:4300px; 
     margin-top: 80px;
     
 }
@@ -201,17 +201,20 @@
          width: 
     }
     .voltar-topo{
-        left: 87%;
+        left: 86%;
         border-radius:0;
-        padding: 15px;
-        
+        padding: 15px; 
+    }
+    .voltar-topo i{
+        font-size: 4vw;
     }
     .sub-controle2 h2{
     font-size: 6vw;
        width: 100%;
+        padding: 10px 0;
        border-radius: 0;
-        background-color: #ffd280;
-        color: #666;
+        background-color: #906c2b;
+        color: #fff;
     }
     h3{
         border: none;
@@ -249,4 +252,11 @@
         padding: 20px;
         
     }
+}
+
+@media (min-width: 769px) and (max-width: 1440px){
+    .controle{
+        height: 4000px;
+    }
+    
 }

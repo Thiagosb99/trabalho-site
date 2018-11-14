@@ -696,7 +696,7 @@ width: 100%;
 
 }
 .bloco-divisao3 img{
-width: 16%;
+width: 32%;
 margin: 0;
 }
 .bloco-divisao3 h5{
@@ -727,7 +727,7 @@ width: 100%;
 margin-top: 0;
 }
      .fa-3x{
-         margin-top: 5px;
+         margin-top: 0vw;
         font-size: 10vw;
     }
 .swiper-container{
