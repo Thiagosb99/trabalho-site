@@ -1,9 +1,18 @@
 
+#cozinha_controle{
+    height: 270vh;
+}
+#quarto_controle{
+    height: 280vh;
+}
+#externa_controle{
+    height: 350vh;
+}
+
 .controle{
     background: #ddd;
-    height:4300px; 
+    height:540vh; 
     margin-top: 80px;
-    
 }
 #produtosfiltro{
     display: none;
@@ -30,7 +39,7 @@
 }
 .sub-controle1{
     width: 20%;
-  background:#f9f9f9;
+  background:#fff;
  
 }
 
@@ -148,7 +157,9 @@
     header{
         height: 100%;
     }
-    
+    #cozinha_controle, #quarto_controle, #externa_controle{
+    height: 100%;
+    }
     .controle{
         width:100%;
         margin-top: 10px;
@@ -256,7 +267,16 @@
 
 @media (min-width: 769px) and (max-width: 1440px){
     .controle{
-        height: 4000px;
+        height: 570vh;
+    }
+    #cozinha_controle{
+    height: 250vh;
+    }
+    #quarto_controle{
+        height: 250vh;
+    }
+    #externa_controle{
+        height: 330vh;
     }
     
 }

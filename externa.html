@@ -1,19 +1,21 @@
+
 <!DOCTYPE html>
 <html>
 <head>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
     <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="produtos.css">
     <link href="https://fonts.googleapis.com/css?family=Pattaya" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/css/swiper.min.css">
-    <title> Index - Orlando móveis</title>
+    <title> Móveis para sala- Orlando móveis</title>
       
 </head>
+    <body id="corpo">
     
-<body id="corpo">
-    <header id="p2" >
+      <header id="p2" >
         
         <div class="pesquisa">
             
@@ -34,7 +36,7 @@
                     <li  onmousemove="altura()" onmouseout="desaltura()">  <p><i class="fas fa-bars fa-4x"></i> </p> 
                         
                       <ul>
-                        <li ><a href="#"> <i class="fas fa-h-square"></i> Home</a></li>
+                        <li ><a href="index.html"> <i class="fas fa-h-square"></i> Home</a></li>
                            <li><a href="sala.html"><i class="fas fa-couch"></i> Sala</a></li>
                           <li><a href="cozinha.html"><i class="fas fa-utensils"></i> Cozinha</a></li>
                           <li><a href="quarto.html"><i class="fas fa-bed"></i> Quarto</a></li>
@@ -80,9 +82,9 @@
         </div>
         
     </header>
-    
-    <!--Menu mobile-->
-       <div class="nav-mobile">
+       
+        <!--Menu mobile-->
+        <div class="nav-mobile">
              <div class="cel">
             
             <div id="menu" class="subteste">
@@ -90,8 +92,8 @@
                     <li  onmousemove="altura()" onmouseout="desaltura()">  <p><i class="fas fa-bars fa-4x"></i> <button onclick="eitapeste()" id="fecharmenu" >X</button></p> 
                         
                       <ul>
-                        <li > <a href="#"> <i class="fas fa-h-square"></i> Home</a> </li>
-                           <li><a href="sala.html"><i class="fas fa-couch"></i> Sala</a></li>
+                        <li > <a href="index.html"> <i class="fas fa-h-square"></i> Home</a> </li>
+                          <li><a href="sala.html"><i class="fas fa-couch"></i> Sala</a></li>
                           <li><a href="cozinha.html"><i class="fas fa-utensils"></i> Cozinha</a></li>
                           <li><a href="quarto.html"><i class="fas fa-bed"></i> Quarto</a></li>
                           <li><a href="externa.html"><i class="fas fa-chair"></i> Área externa</a></li>
@@ -135,202 +137,281 @@
             
         </div>
         </div>
-    
-    
-    <div class="controle">
-        <!--slider1-->
-         <div class="slide-bloco">
-            
-            <div class="sub-container"><div class="w3-left " onclick="plusDivs(-1)">&#10094;</div></div>
-            <div class="sub-container">
-            <img class="mySlides fade" src="imgs/banner.jpg" >
-            <img class="mySlides fade" src="imgs/sala2.jpg" >
-            <img class="mySlides fade" src="imgs/sala3.jpg" >
+        
+         <div id="externa_controle" class=" controle">
+             
+             <button id="produtosfiltro" onclick="filtrar()" > Categorias <i  class="fas fa-caret-down"></i></button>
+             
+             <a href="#p2"><button id="voltartopo" class="voltar-topo"><i class="fas fa-angle-up"></i></button></a>
+             
+             <div class="sub-controle1">
+                 
+                <ul class="menu-produtos">
+                    
+                    <li><a href="#">Área Externa</a>
+                        <ul>
+                            <li><a href="#estar_estante">Mesas de Jardim</a></li>
+                            <li><a href="#estar_paineltv">Cadeiras de Jardim</a></li>
+                            <li><a href="#estar_poltrona">Poltronas e Sofás</a></li>
+                            <li><a href="#estar_mesa">Bancos</a></li>
+                             <li><a href="#espreguicadeira">Espreguiçadeiras</a></li>
+                            
+                           
+                            
+                        </ul>
+
+                    </li> 
+                   
+                </ul>
+             
+             </div>
+             
+             
+             
+             <div class="sub-controle2">
+                 
+                 
+                 
+             
+                 
+                 <!--Mesa jardim-->
+                 
+                 <div class="region-produtos">
+                     
+                 <h3>Mesas de Jardim</h3>
+               
+                <div class="exibir-produtos">
+                    
+                    <img src="imgs/mesajardim1.jpg" alt="Mesa para jardim">
+               
+                    <p>Mesa Quadrada Dobrável Pende Nogueira 70 cm</p><br>
+                    <p><span>R$148,55</span> à Vista  <br>
+                    <b>5x</b> R$31,27 s/ juros</p>
+                 <button class="botao-comprar">COMPRAR</button>
+                 </div>
+                 <div class="exibir-produtos"> 
+                     
+                    <img src="imgs/mesajardim1.jpg" alt="Mesa para jardim">
+               
+                    <p>Mesa Quadrada Dobrável Pende Nogueira 70 cm</p><br>
+                    <p><span>R$148,55</span> à Vista  <br>
+                    <b>5x</b> R$31,27 s/ juros</p>
+                 <button class="botao-comprar">COMPRAR</button>
+                 </div>
+               <div class="exibir-produtos"> 
+                   
+                   <img src="imgs/mesajardim1.jpg" alt="Mesa para jardim">
+               
+                    <p>Mesa Quadrada Dobrável Pende Nogueira 70 cm</p><br>
+                    <p><span>R$148,55</span> à Vista  <br>
+                    <b>5x</b> R$31,27 s/ juros</p>
+                 <button class="botao-comprar">COMPRAR</button>
+                 </div>
+                <div class="exibir-produtos"> 
+                    
+                      <img src="imgs/mesajardim1.jpg" alt="Mesa para jardim">
+               
+                    <p>Mesa Quadrada Dobrável Pende Nogueira 70 cm</p><br>
+                    <p><span>R$148,55</span> à Vista  <br>
+                    <b>5x</b> R$31,27 s/ juros</p>
+                 <button class="botao-comprar">COMPRAR</button>
+                 </div>
+                 
+                 
+             </div>
+                 
+                 <!--Cadeiras de jardim-->
+                 
+                   <div class="region-produtos">
+                     
+                 <h3 >Cadeiras de Jardim</h3>
+               
+                <div class="exibir-produtos">
+                    
+                    <img id="estar_paineltv" src="imgs/cadeirajardim1.jpg" alt="Cadeira de jardim ">
+               
+                    <p>Cadeira jardim Giovana Marrom Escuro</p><br>
+                    <p><span>R$148,55</span> à Vista  <br>
+                    <b>5x</b> R$31,27 s/ juros</p>
+                 <button class="botao-comprar">COMPRAR</button>
+                 </div>
+                 <div class="exibir-produtos"> 
+                     
+                     <img id="estar_paineltv" src="imgs/cadeirajardim1.jpg" alt="Cadeira de jardim ">
+               
+                    <p>Cadeira jardim Giovana Marrom Escuro</p><br>
+                    <p><span>R$148,55</span> à Vista  <br>
+                    <b>5x</b> R$31,27 s/ juros</p>
+                 <button class="botao-comprar">COMPRAR</button>
+                 </div>
+               <div class="exibir-produtos"> 
+                   
+                     <img id="estar_paineltv" src="imgs/cadeirajardim1.jpg" alt="Cadeira de jardim ">
+               
+                    <p>Cadeira jardim Giovana Marrom Escuro</p><br>
+                    <p><span>R$148,55</span> à Vista  <br>
+                    <b>5x</b> R$31,27 s/ juros</p>
+                 <button class="botao-comprar">COMPRAR</button>
+                 </div>
+                <div class="exibir-produtos"> 
+                    
+                      <img id="estar_paineltv" src="imgs/cadeirajardim1.jpg" alt="Cadeira de jardim ">
+               
+                    <p>Cadeira jardim Giovana Marrom Escuro</p><br>
+                    <p><span>R$148,55</span> à Vista  <br>
+                    <b>5x</b> R$31,27 s/ juros</p>
+                 <button class="botao-comprar">COMPRAR</button>
+                 </div>
+                 
+                 
+             </div>
                 
-                <p style="text-align: center">  <button class=" demo " onclick="currentDiv(1)"></button>
-                    <button class=" demo " onclick="currentDiv(2)"></button>
-                    <button class="demo " onclick="currentDiv(3)"></button></p>
-            </div>
-            
-            <div class="sub-container"><div class="w3-right " onclick="plusDivs(1)" >&#10095;</div></div>
-            
+                 <!--poltronas e sofas-->
+                   <div class="region-produtos">
+                     
+                 <h3 >Poltronas e Sofás</h3>
+               
+                <div class="exibir-produtos">
+                    
+                    <img id="estar_poltrona" src="imgs/poltronajardim1.jpg" alt="Poltrona jardim">
+               
+                    <p>Poltrona Bilbao Área Externa </p><br>
+                    <p><span>R$148,55</span> à Vista  <br>
+                    <b>5x</b> R$31,27 s/ juros</p>
+                 <button  class="botao-comprar">COMPRAR</button>
+                 </div>
+                 <div class="exibir-produtos"> 
+                     
+                   <img id="estar_poltrona" src="imgs/poltronajardim1.jpg" alt="Poltrona jardim">
+               
+                    <p>Poltrona Bilbao Área Externa </p><br>
+                    <p><span>R$148,55</span> à Vista  <br>
+                    <b>5x</b> R$31,27 s/ juros</p>
+                 <button class="botao-comprar">COMPRAR</button>
+                 </div>
+               <div class="exibir-produtos"> 
+                   
+                  <img id="estar_poltrona" src="imgs/poltronajardim1.jpg" alt="Poltrona jardim">
+               
+                    <p>Poltrona Bilbao Área Externa </p><br>
+                    <p><span>R$148,55</span> à Vista  <br>
+                    <b>5x</b> R$31,27 s/ juros</p>
+                 <button class="botao-comprar">COMPRAR</button>
+                 </div>
+                <div class="exibir-produtos"> 
+                    
+                  <img id="estar_poltrona" src="imgs/poltronajardim1.jpg" alt="Poltrona jardim">
+               
+                    <p>Poltrona Bilbao Área Externa </p><br>
+                    <p><span>R$148,55</span> à Vista  <br>
+                    <b>5x</b> R$31,27 s/ juros</p>
+                 <button class="botao-comprar">COMPRAR</button>
+                 </div>
+                 
+                 
+             </div>
+                 
+                 
+                 <!--Bancos-->
+                 
+                   <div class="region-produtos">
+                     
+                 <h3 >Bancos</h3>
+               
+                <div class="exibir-produtos">
+                    
+                    <img id="estar_mesa" src="imgs/bancojardim1.jpg" alt="Banco">
+               
+                    <p>Banco Rústico Attrazione em Madeira de Demolição - REF 1460</p><br>
+                    <p><span>R$148,55</span> à Vista  <br>
+                    <b>5x</b> R$31,27 s/ juros</p>
+                 <button class="botao-comprar">COMPRAR</button>
+                 </div>
+                 <div class="exibir-produtos"> 
+                     
+                   <img id="estar_mesa" src="imgs/bancojardim1.jpg" alt="Banco">
+               
+                    <p>Banco Rústico Attrazione em Madeira de Demolição - REF 1460</p><br>
+                    <p><span>R$148,55</span> à Vista  <br>
+                    <b>5x</b> R$31,27 s/ juros</p>
+                 <button class="botao-comprar">COMPRAR</button>
+                 </div>
+               <div class="exibir-produtos"> 
+                   
+                 <img id="estar_mesa" src="imgs/bancojardim1.jpg" alt="Banco">
+               
+                    <p>Banco Rústico Attrazione em Madeira de Demolição - REF 1460</p><br>
+                    <p><span>R$148,55</span> à Vista  <br>
+                    <b>5x</b> R$31,27 s/ juros</p>
+                 <button class="botao-comprar">COMPRAR</button>
+                 </div>
+                <div class="exibir-produtos"> 
+                    
+                <img id="estar_mesa" src="imgs/bancojardim1.jpg" alt="Banco">
+               
+                    <p>Banco Rústico Attrazione em Madeira de Demolição - REF 1460</p><br>
+                    <p><span>R$148,55</span> à Vista  <br>
+                    <b>5x</b> R$31,27 s/ juros</p>
+                 <button class="botao-comprar">COMPRAR</button>
+                 </div>
+                 
+                 
+             </div>
+                 
+                    <!--Espreguiçadeiras-->
+                 
+                   <div class="region-produtos">
+                     
+                 <h3 >Espreguiçadeiras</h3>
+               
+                <div class="exibir-produtos">
+                    
+                    <img id="espreguicadeira" src="imgs/espreguicadeirajardim1.jpg" alt="Espreguiçadeira">
+               
+                    <p>Espreguiçadeira Ilha Do Mel Móveis Famais</p><br>
+                    <p><span>R$148,55</span> à Vista  <br>
+                    <b>5x</b> R$31,27 s/ juros</p>
+                 <button class="botao-comprar">COMPRAR</button>
+                 </div>
+                 <div class="exibir-produtos"> 
+                     
+                    <img  src="imgs/espreguicadeirajardim1.jpg" alt="Espreguiçadeira">
+               
+                    <p>Espreguiçadeira Ilha Do Mel Móveis Famais</p><br>
+                    <p><span>R$148,55</span> à Vista  <br>
+                    <b>5x</b> R$31,27 s/ juros</p>
+                 <button class="botao-comprar">COMPRAR</button>
+                 </div>
+               <div class="exibir-produtos"> 
+                   
+                  <img  src="imgs/espreguicadeirajardim1.jpg" alt="Espreguiçadeira">
+               
+                    <p>Espreguiçadeira Ilha Do Mel Móveis Famais</p><br>
+                    <p><span>R$148,55</span> à Vista  <br>
+                    <b>5x</b> R$31,27 s/ juros</p>
+                 <button class="botao-comprar">COMPRAR</button>
+                 </div>
+                <div class="exibir-produtos"> 
+                    
+                 <img  src="imgs/espreguicadeirajardim1.jpg" alt="Espreguiçadeira">
+               
+                    <p>Espreguiçadeira Ilha Do Mel Móveis Famais</p><br>
+                    <p><span>R$148,55</span> à Vista  <br>
+                    <b>5x</b> R$31,27 s/ juros</p>
+                 <button class="botao-comprar">COMPRAR</button>
+                 </div>
+                 
+                 
+             </div>
+                 
+                   
+                 
+             </div>
+             
         </div>
-        
-        
-         <!-- Swiper  mobile-->
-              <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    
-                    <div class="swiper-slide"><img  src="imgs/banner.jpg" style="width:100%" ></div>
-                    <div class="swiper-slide"> <img  src="imgs/sala2.jpg" style="width:100%"></div>
-                    <div class="swiper-slide">    <img  src="imgs/sala3.jpg" style="width:100%"></div>
-                  
-                </div>
-
-              </div>
-
-      
-        <!--Seção Sala-->  
-   
-       <h3>Móveis para Sala</h3>
-        
-         <section class="moveis-secao">
-             
-             <div class="bloco1">
-                 
-                 <img src="imgs/sala1.jpg" class="img-bloco1" >    
-                 
-                    <p> Sala Completa Modulada com 5 Módulos Branco - Caaza  </p><br>
-                    <p><span>R$148,55</span> à Vista  <br>
-                    <b>5x</b> R$31,27 s/ juros</p>
-                 <button class="botao-comprar">COMPRAR</button>
-                 
-            </div>
-             
-             <div class="bloco1">
-                 
-                <img src="imgs/sala1.jpg" class="img-bloco1" >    
-                 
-                    <p> Sala Completa Modulada com 5 Módulos Branco - Caaza  </p><br>
-                    <p><span>R$148,55</span> à Vista  <br>
-                    <b>5x</b> R$31,27 s/ juros</p>
-                 <button class="botao-comprar">COMPRAR</button>
-                 
-             </div>
-             
-            <div class="bloco1">
-                
-                <img src="imgs/sala1.jpg" class="img-bloco1" >   
-                
-                    <p> Sala Completa Modulada com 5 Módulos Branco - Caaza  </p><br>
-                    <p><span>R$148,55</span> à Vista  <br>
-                    <b>5x</b> R$31,27 s/ juros</p>
-                 <button class="botao-comprar">COMPRAR</button>
-                
-             </div>
+             <footer>
            
-        </section>  
-        
-        <!--Seção Cozinha-->
-        
-         <h3>Móveis para Cozinha</h3>
-            <section class="moveis-secao">
-                
-                <div class="bloco1">
-                    
-                    <img src="imgs/cozinha1.jpg" class="img-bloco1" >    
-                    <p> Sala Completa Modulada com 5 Módulos Branco - Caaza  </p><br>
-                    <p><span>R$148,55</span> à Vista  <br>
-                    <b>5x</b> R$31,27 s/ juros</p>
-                 <button class="botao-comprar">COMPRAR</button>
-                    
-                </div>
-                
-                <div class="bloco1">
-                    
-                    <img src="imgs/cozinha1.jpg" class="img-bloco1" >  
-                    
-                    <p> Sala Completa Modulada com 5 Módulos Branco - Caaza  </p><br>
-                    <p><span>R$148,55</span> à Vista  <br>
-                    <b>5x</b> R$31,27 s/ juros</p>
-                 <button class="botao-comprar">COMPRAR</button>
-                    
-                </div>
-                
-                <div class="bloco1">
-                    
-                    <img src="imgs/cozinha1.jpg" class="img-bloco1" >     
-                    <p> Sala Completa Modulada com 5 Módulos Branco - Caaza  </p><br>
-                    <p><span>R$148,55</span> à Vista  <br>
-                    <b>5x</b> R$31,27 s/ juros</p>
-                 <button class="botao-comprar">COMPRAR</button>
-                    
-                </div>
-           
-        </section> 
-        
-          <!--Seção Quarto-->
-        
-       <h3>Móveis para Quarto</h3>
-        
-         <section class="moveis-secao">
-             
-             <div class="bloco1">
-                 
-                 <img src="imgs/quarto1.jpg" class="img-bloco1" >    
-                 <p> Sala Completa Modulada com 5 Módulos Branco - Caaza  </p><br>
-                 <p><span>R$148,55</span> à Vista  <br>
-                 <b>5x</b> R$31,27 s/ juros</p>
-                 <button class="botao-comprar">COMPRAR</button>
-                 
-             </div>
-             
-             <div class="bloco1">
-             
-                 <img src="imgs/quarto1.jpg" class="img-bloco1" >    
-                 <p> Sala Completa Modulada com 5 Módulos Branco - Caaza  </p><br>
-                 <p><span>R$148,55</span> à Vista  <br>
-                    <b>5x</b> R$31,27 s/ juros</p>
-                 <button class="botao-comprar">COMPRAR</button>
-             
-            </div>
-             
-             <div class="bloco1">
-                 
-                 <img src="imgs/quarto1.jpg" class="img-bloco1" >  
-                 
-                 <p> Sala Completa Modulada com 5 Módulos Branco - Caaza  </p><br>
-                 <p><span>R$148,55</span> à Vista  <br>
-                    <b>5x</b> R$31,27 s/ juros</p>
-                 <button class="botao-comprar">COMPRAR</button>
-                 
-             </div>
-              
-        </section>   
-        
-       <!--Seção Jardim-->
-        
-          <h3>Móveis para Área externa</h3>
-        
-         <section class="moveis-secao">
-             
-             <div class="bloco1">
-                 
-                 <img src="imgs/jardim1.jpg" class="img-bloco1" >    
-                 <p> Sala Completa Modulada com 5 Módulos Branco - Caaza  </p><br>
-                 <p><span>R$148,55</span> à Vista  <br>
-                    <b>5x</b> R$31,27 s/ juros</p>
-                 <button class="botao-comprar">COMPRAR</button>
-                 
-             </div>
-             
-             <div class="bloco1">
-             
-                 <img src="imgs/jardim1.jpg" class="img-bloco1" >  
-                    <p> Sala Completa Modulada com 5 Módulos Branco - Caaza  </p><br>
-                    <p><span>R$148,55</span> à Vista  <br>
-                    <b>5x</b> R$31,27 s/ juros</p>
-                 <button class="botao-comprar">COMPRAR</button>
-             
-             </div>
-             
-          <div class="bloco1">
-              
-                <img src="imgs/jardim1.jpg" class="img-bloco1" >   
-                <p> Sala Completa Modulada com 5 Módulos Branco - Caaza  </p><br>
-                <p><span>R$148,55</span> à Vista  <br>
-                    <b>5x</b> R$31,27 s/ juros</p>
-                 <button class="botao-comprar">COMPRAR</button>
-              
-            </div>
-           
-        </section>  
-    
-</div> 
-   
-       <footer>
-           
-        <div class="divisao1">
+        <div class="divisao1" >
             
                 <div class="bloco-divisao1">
                     
@@ -440,18 +521,8 @@
             
            <p style="text-align: right;">Copyright © 2018| Móveis Orlando| All rights reserved</p>
                
-           
-           
-          
-           
+         
         </footer>
-    
-   <script src="codigo.js"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/js/swiper.min.js"></script>
-     <script>
-    var swiper = new Swiper('.swiper-container', {
-  
-    });
-  </script>
-</body>
+        <script src="codigo.js"></script>
+    </body>
 </html>

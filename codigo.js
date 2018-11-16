@@ -74,10 +74,16 @@ function filtrar(){
     
     if(contar==1){
          document.getElementsByClassName("sub-controle1")[0].style.display="block";
-        document.getElementById("estar_estante").style.display="none";
+        if(document.URL.includes("sala.html")){
+          document.getElementById("estar_estante").style.display="none";
+        }
+       
     }else if(contar==2){
          document.getElementsByClassName("sub-controle1")[0].style.display="none";
-        document.getElementById("estar_estante").style.display="block";
+        if(document.URL.includes("sala.html")){
+          document.getElementById("estar_estante").style.display="block";
+        }
+       
         contar=0;
     }
     contar+=1;
