@@ -171,7 +171,7 @@
         background-color: inherit;
         position: absolute;
         margin-top: 0px;
-        height: 100%;
+        height: auto;
  
 }
     #produtosfiltro{
@@ -195,7 +195,9 @@
         background-color: #333;
         color: #fff;
     }
-    
+    .menu-produtos {
+        height: 100%;
+    }
     .menu-produtos, .menu-produtos li ul li {
         text-align: justify;
         font-size: 7vw;
